@@ -2,6 +2,7 @@
 layout: post
 title: "한글을 텍스쳐로 변환하기..."
 date: 2006-03-01 01:21:55 +0900
+categories: [개발]
 ---
 
 <br/>Wow 처럼 한글을 텍스쳐로 만들어서 캐릭터 이름을 표현 하는 등의 처리를 하고자 한글을 텍스쳐로 뽑는 작업을 시작했다...<br/><br/>처음에는 D3DXFont를 이용해서, 랜더타겟을 잡아서 랜더링을 하려고 생각했는데, 의도한 대로 되기 생각보다 까다로와서 gpg를 보고, 몇 가지 방법이 있어서, DC를 이용해서 텍스쳐에 밀어넣는 방법을 해보기로 했다.. <br/><br/>&lt;참고 자료&gt;<br/><a href="http://gpgstudy.com/forum/viewtopic.php?t=4530&amp;highlight=BITMAPINFO" target="_blank" title="">gpg 텍스쳐에 글자 그리기</a><br/><a href="http://blog.naver.com/seeper0/120009167787" target="_blank" title="">seeper0님의 예제</a><br/><br/>이제 텍스쳐로 뽑는 것 까지는 되었는데, 캐릭터 이름 하나 하나를 텍스쳐로 만들어 쓰기는 너무 난감할 것 같아서, 텍스쳐를 메모리 풀 처럼 사용해야 겠다는 생각이 들어서, 512짜리 텍스쳐에 쭉 밀어 넣고, SetTexture를 한번만 하도록 구현 중이다. <br/><br/>그 후에, 네임패드를 그릴 사각형은 빌보드로 처리를 해야 할 듯하고, 되도록이면 Batching이 되도록 해서, 한방에 랜더링을 하고자 하는게 목표이다..<br/><br/>&lt;참고 자료&gt;<br/><a href="http://gpgstudy.com/forum/viewtopic.php?t=8540&amp;highlight=%C0%CC%B9%CC%C1%F6" target="_blank" title="">아이디 빌보드</a><br/><br/>아직 30% 밖에 되지 않았지만, D3DXFont로만 작업을 하던 나에게는, 꽤 신선한 방법이었고, 휠씬 이뿌게 화면에 찍힌다는 것을 알았다..<br/><br/>처음에는 되게 싶게 생각했었는데, 생각보다 만만치 않다는 것에 괴로워 하고 있으며.. 돌아보니까, 생각보다 많지 않은 게임이 이런 식으로 텍스쳐를 따로 생성해서 이용하는 듯 하다.. 아닌가?! <br/><br/>멋지게 되기를 기대할 뿐이다.. <br/>

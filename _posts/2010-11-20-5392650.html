@@ -2,6 +2,7 @@
 layout: post
 title: "Filtering"
 date: 2010-11-20 02:23:41 +0900
+categories: [개발]
 ---
 
 <span style="FONT-FAMILY: Verdana">DOF 를 작업하다가 보니, 점점 이미지 프로세싱의 Filtering 처리에 부딪힌다.<br/>(점점 파고 들었더니, DOF에서 Bilateral Filter가 나왔다. 오호. +_+;;)<br/><br/>특별히 크게 고민을 해보지 않고, 넘어갔던 부분인데, 이제는 확실히 개념을 정리해두어야 할 것 같다.<br/><br/>1. </span><a href="http://blog.naver.com/kyuniitale?Redirect=Log&amp;logNo=40030708065" target="_blank"><span style="FONT-FAMILY: Verdana">Bilinear Filter<br/></span></a>: 가까운 4점의 <a href="http://100.naver.com/100.nhn?docid=783265" target="_blank">텍셀</a>에서 평균을 취하므로, 샘플링 점(텍스쳐를 읽어들이는 장소)의 4개의 텍셀에서 중심 위치에 있는 픽셀이 결과 색이 된다. 각각 텍셀의 중심을 읽는 픽셀은 그 위치에 있는 텍셀의 색밖에 영향을 받지 않는다. 텍셀 폭의 반 정도를 옮겨서 텍스쳐를 읽어들이면 그 텍셀의 색을 정확하게 읽어들일 수 있다. -&gt; 텍셀과 픽셀을 정확히 반만큼 비켜놓으면 픽셀의 위치가 텍셀의 중심이 되므로 텍셀의 색이 그대로 읽혀서 깨끗한 그림이 된다.<span style="FONT-FAMILY: Verdana"><br/>2. Box Filter<br/>3. Gaussian <br/>4. Bilateral Filter<br/><br/>[DirectX 샘플러 스테이트]<br/>-D3DSAMPLE_MAGFILTER(확대 했을 때, 읽기 방법)<br/>-D3DSAMPLE_MINFILTER(축소 했을 때, 읽기 방법)<br/>-D3DSAMPLE_MIPFILTER(밉맵 했을 때, 읽기 방법)<br/><br/>D3DTEXTUREFILTERTYPE<br/>-D3DTEXF_NONE : 밉맵 처리를 무효로 한다. 대신에 확대 필터가 사용됨<br/>-D3DTEXF_POINT : 목적 픽셀 값에 가장 가까운 좌표를 가지는 텍셀을 사용<br/>-D3DTEXF_LINEAR : 목적 픽셀 값을 둘러싸는 2X2(4개) 영역의 텍셀의 가중 평균을 사용<br/>-D3DTEXF_ANISOTROPIC : 텍스쳐 폴리곤과 스크린 평면간의 각도의 위상차에 의해 일어나는 왜곡을 보정.<br/><br/><br/></span>

@@ -2,6 +2,7 @@
 layout: post
 title: "[Vulkan 일지] Vulkan Shader Descriptor"
 date: 2017-02-14 01:43:29 +0900
+categories: [개발]
 ---
 
 셰이더의 변수를 C++에서 연동하기 위해서 Vulkan에서는 Descriptor를 이용해야 하는데, DescriptorPool, DescriptorSetLayout, DescriptorSets를 정의해서 값을 채워야 한다. <div><br/></div><div>api를 설정하는 것도 중요하지만, 어떻게 사용하는 것이 효과적인지를 익혀야 하는데, 아직은 정보가 많이 없어서 진도가 더디게 나가고 있다. </div><div><br/></div><div>1. DescriptorPool은 어떻게 사용하고 관리해야 하는가?</div><div>2. DesscriptorSet은 어떻게 관리하고 데이터를 업데이트 해야 하는가?</div><div><br/></div><div>아~ 놔... 이번 주는 이것만 봐야겠다.. ;;;;</div><div><br/></div><div>[TODO]</div><div><br/></div><div><span style="font-family: Verdana; font-size: 9pt;">* DescriptorPool을 언리얼을 보니까 하나만 생성하는 것이 아닌 것 같은데, 왜 일까?? </span></div><div><span style="font-family: Verdana; font-size: 9pt;">  (효율적으로 하기 위해서 Descriptor Pool을 일하고 있을 때에 기다리지 말고 생성하라고 본 것 같은데 기억이. ;;;;; 이것도 찾아서 정리하자!)</span></div><div>* DescriptorSet을 어떻게 생성하고 관리할 것인가?</div><div>  (DescriptorSetLayout과 DescriptorSet을 1:1 만들어서 커멘트버퍼에 등록하는 것이 좋은가? 셰이더의 모든 DescriptorSetLayout을 DescriptorSet에 모두 추가해서 생성해서 사용하는 것이 좋은가? 변경 빈도에 대한 이슈...)</div><div>* DescriptorSet에 c++에서 셰이더 변수 값을 어떻게 업데이트 시켜줄 것인가? </div><div>   (한번에 많이 업데이트 하는 것이 좋은지, 자잘하게 올리는 것인 좋은가?)</div><div>* 이를 위해서 효율적으로 Shader 변수 값들을 어떻게 관리할 것 인가?</div><div>* UniformBuffer를 사용해본 적이 없으니, UniformBuffer를 다루는 방법을 좀 더 공부하자!! </div><div>   (UniformBuffer를 최대한 업데이트 빈도를 줄여야 하나? 자주 해도 되나?)</div><div>* <a href="https://developer.nvidia.com/vulkan-shader-resource-binding" target="_blank">https://developer.nvidia.com/vulkan-shader-resource-binding</a> 이 문서 형태로 만드는 것을 목표로 하자!!!</div>

@@ -2,6 +2,7 @@
 layout: post
 title: "모바일 기기 칩셋 별 GPU 아키텍쳐"
 date: 2012-12-07 12:40:40 +0900
+categories: [개발]
 ---
 
 <div>Mobile 렌더러를 작업하면서 개인적으로 가장 시간도 오래걸리고, 어려웠던 부분은 뭐 렌더러 개발이 다 마찬가지겠지만, 역시 최적화 부분입니다. </div><div><br/></div><div>특히, 모바일의 경우, 기기 별로, 어떤 칩셋을 사용하느냐? 에 따라서, GPU 아키텍쳐가 다르기 때문에, 실제로 기기별로 Hot Spot이 다르게 나오는 경향이 있어서, 하나 되었다고 생각해서 다른 기기 테스트해보면, 다른데서 속도를 다 잡아 먹고 하는 문제가 반복됩니다. 거기에 아이폰의 경우에는 자체적으로 메모리 모델도 달라서 + @ 까지 있구요.. 헐~</div><div><br/></div><div>그래서, 저 같은 경우야 직접 렌더러를 개발하면서, OpenGL ES 코드를 제어하면서 접근하니, 그나마 이런 하드웨어 특성에 따라서 어떻게 해주어야 하는지에 대해서 어쩌면 더 많이 부딪히기도 하면서, 빨리 알게되었는데요.</div><div><br/></div><div>게임엔진을 사용하게 될 경우에는 렌더러 딴을 직접 컨트롤 하는 경우가 거의 없기 때문에, 상대적으로 체감은 하지만, 직접적으로 알지는 못하는 듯 합니다. </div><div><br/></div><div>그런 부분을 잘 소개해주는 문서들이 있는데, 아이러니하게도 거의 유니티쪽에서 발표한 자료들입니다. ㅎㅎ</div><img alt="" loading="lazy" src="/assets/images/posts/5700993/c0001532_50c1625f2a5cb.png"/><div>[발표자료 : <a href="http://www.slideshare.net/cagetu/mobile-crossplatformchallenges-siggraph-15528000" target="_blank">http://www.slideshare.net/cagetu/mobile-crossplatformchallenges-siggraph-15528000</a>]</div><div><br/></div><div>제가 설명을 하는 것보다 이 발표자료 하나 보는 것이 더 빠를 듯 하네요. ㅎ</div><div><br/></div><div>모바일 렌더러를 작업하면서 수 많은 문제들을 체험(?) 했는데, NDC13에서는 이걸 발표주제로 잡아볼까? 라는 생각입니다만, 관심이 있을지는 모르겠네요.</div><div><br/></div><div>궁금한 부분이 있으시면, 500원씩~ ㅋ</div>

@@ -2,6 +2,7 @@
 layout: post
 title: "SMOL-V: like Vulkan/Khronos SPIR-V"
 date: 2018-03-09 18:45:31 +0900
+categories: [개발]
 ---
 
 <a href="http://cagetu.egloos.com/6096811" title="">Shader Compiler</a>에서 GLSL -&gt; SPIR-V로 변환하는 것까지는 구현해 두었었는데, Unity의 aras님이 SMOL-V라는 SPIR-V의 용량을 줄이는 모듈을 개발하셨다... <div><br/><div><div><a href="https://github.com/aras-p/smol-v" target="_blank">https://github.com/aras-p/smol-v</a></div><div>자세한 글은 여기에 <span style="font-size: 9pt; font-family: Verdana;">(</span><a href="http://aras-p.info/blog/2016/09/01/SPIR-V-Compression/" style="font-size: 9pt; font-family: Verdana;" target="_blank">http://aras-p.info/blog/2016/09/01/SPIR-V-Compression/</a><span style="font-size: 9pt; font-family: Verdana;">)</span></div><div><span style="font-size: 9pt; font-family: Verdana;"><br/></span></div><div><span style="font-size: 9pt; font-family: Verdana;">1) 일반 압축보다 좀 더 나은 방법이 필요.</span></div><div><span style="font-size: 9pt; font-family: Verdana;">2) Filtering 기법을 이용 (ex&gt; Delta Encoding)</span></div><div><span style="font-size: 9pt; font-family: Verdana;">3) spirv-remap보다 더 나은 효율...</span></div><div><span style="font-size: 9pt; font-family: Verdana;"><br/></span></div><div>좋아보인다!! 왠지 반드시 적용해야 할 것 같다!!! </div><div><br/></div><div>아직은 적용해보지 못했기 때문에, 틈나는데로 적용해보고 결과를 확인해보자!!!</div><div><br/></div></div></div>

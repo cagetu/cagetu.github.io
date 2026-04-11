@@ -2,6 +2,7 @@
 layout: post
 title: "Bokeh"
 date: 2011-04-29 10:04:54 +0900
+categories: [개발]
 ---
 
 차세대 그래픽 발표를 보면, <a href="http://cagetu.egloos.com/5383251" title="">Depth Of Field</a>를 보다 사실적으로 표현하고 있지요. 특히, Bokeh를 표현한, 언리얼과 CryEngine이 주목을 받고 있공...<br/><br/><div>더 당거 존(The Danger Zone) 블로그에 엄청 친절하게 정리가 잘 되어 있네요.</div><div><br/><a href="http://mynameismjp.wordpress.com/2011/02/28/bokeh/" target="_blank">How To Fake Bokeh (And Make It Look Pretty Good)</a><br/><a href="http://mynameismjp.wordpress.com/2011/04/19/bokeh-ii-the-sequel/" target="_blank">Bokeh II: The Sequel</a><div><br/></div><div>언리얼 경우는 #4 의 방법으로 구현한 것 같고, 크라이는 좀 무식하게 한 듯한 느낌이긴하고... </div></div><div><br/></div><div>현존하는 Bokeh의 구현은 Geometry Shader를 사용하여, 처리를 하는데, 이를 DX9 기반에서 처리할 수 있느냐가 연구 과제!!!</div><div><br/></div><div><img alt="" loading="lazy" src="/assets/images/posts/5479918/c0001532_4dba0e03a36a1.jpg"/></div><div><br/></div><div>여기서 말하는 방법은 포케가 되는 지점만 추려서, CoC 사이즈 만큼 aperture shape을 찍어주면 된다는 것...</div><div><br/></div><div>Source Code도 있으니, 찬찬히 고민해보자!!!!</div><div><br/></div>

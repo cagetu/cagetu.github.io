@@ -2,6 +2,7 @@
 layout: post
 title: "링커 도구 오류 LNK2019"
 date: 2008-08-25 16:54:17 +0900
+categories: [개발]
 ---
 
 <img alt="" loading="lazy" src="/assets/images/posts/4572739/c0001532_48b264e7b5c50.jpg"/> 문제는 이거였다.. 스트링을 매개 변수로 받는 메쏘드들이 자꾸 링크에러를 내길래. 몇 개는 헤더에 밀어넣었더니 잘되고, .cpp로 넣은 것은 링크 오류이고..<br/><br/>결론은... 라이브러리 생성할 때, 언어에서 wchar_t를 적절히 사용해야 한다능... <br/><br/>젠장 구리구리.. 예전에 겪어봤던 문제인데, 왜 자꾸 까먹는게냐.. ㅡㅡ;;<br/><br/>[자세한 내용은...]<br/><a href="http://msdn.microsoft.com/ko-kr/library/799kze2z(VS.80).aspx" target="_blank" title="">MSDN 온라인 도움말</a><br/>

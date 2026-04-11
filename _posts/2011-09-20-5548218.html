@@ -2,6 +2,7 @@
 layout: post
 title: "Forward Rendering에서의 Dynamic Lighting.."
 date: 2011-09-20 15:26:53 +0900
+categories: [개발]
 ---
 
 <a href="http://cagetu.egloos.com/5547851" title="">Deferred/Light Pre Pass Rendering</a> 글에서 이야기 한 것 처럼 Black Opts에서는 Forward Rendering을 사용하는데, 디퍼드 보다는 라이팅에 대해서는 제한적이지만, 그 상황에서도 퀄리티를 높이는 시도가 눈에 띕니다.<div><br/></div><div>생각해보면, pc 게임에서도 굳이 deferred 를 사용할 필요가 없는 경우도 많이 있고, 언리얼 2 세대나 겜브료 엔진 같은 경우를 사용하는 경우에는 지금도 forward rendering으로 잘만 처리되고 있고 말이죠...</div><div><br/></div><div>이번 SIGGRAPH2011의 문서 중에서, "Filipov - Dynamic Lights in GOW3" 라는 발표가 있었는데, 라이트를 합성하는 방법에 대한 소개가 있네요. 뭐, 이건 디퍼드라고 해도 고민을 해봐야 하는 부분이긴 하지만, 잘만 이용하면, Forward Rendering 에서도 다양한 라이트가 있는 것과 같은 느낌을 줄 수 있지 않을까 하는 기대가 되더라구요. (아직 정독을 안해서 정확한 내용은 좀 더 봐야 할 듯)</div><div><br/></div><div>좀 살펴본 내용을 정리하면, <span class="Apple-style-span" style="font-family: Verdana; ">verex shader에서 light의 위치를 합산하고, pixel shader에서 하나의 라이트 처럼 연산을 하는 식인 듯 합니다. 이런 식으로 하면, shader 내부에서 for 문을 돌면서 라이트 계산을 하지는 않겠네요. 내용이 재미있는데, 능력이 딸려서, 100% 이해는 안되는구만요.. ㅡㅡ;</span></div><div><br/></div><div>PC 온라인 게임과 같이, 수 많은 유저들의 성능을 고려해야 하는 상황이라면, 여러 각도로 고민을 해봐야 할 것 같아욤.</div><div><br/></div><div>어느 정도 경험과 노하우가 쌓이면, 이 주제로 통해서, 많은 이야기를 나눠보고 싶기도 하네요. </div><div>(아쉽게도 올해 KGC는 넘어갔네요. ㅎ)</div><div><br/></div>

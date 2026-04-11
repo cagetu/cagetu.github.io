@@ -2,6 +2,7 @@
 layout: post
 title: "DirectX11 - Instancing"
 date: 2013-01-27 03:06:00 +0900
+categories: [개발]
 ---
 
 <a href="http://cagetu.egloos.com/5715010" title="">DirectX11 - Skinning</a>을 해보고, 이왕하는 김에 Instancing까지 해보자! 라는 생각이 들어서, DirectX9 기반 Instancing 코드를 DirectX11으로 바꿔보았습니다.<div><img alt="" loading="lazy" src="/assets/images/posts/5717046/c0001532_51041805c6f18.png"/></div><div>이건 한번에 5개를 찍어본 것인데, 잘 되네요. ㅎㅎ</div><div><br/></div><div>DirectX9에서는 하드웨어 인스턴싱이 그렇게 빠르다고 생각이 들지는 않았었는데, DirectX11에서는 많이 빨라졌다고 하는데, 정확히 측정은 해보지 않아서 잘 모르겠습니다.</div><div><br/></div><div>DirectX9랑 비교해보면, SetStreamSourceFreq 라는 API를 이용해서 버텍스 버퍼에 인스턴싱을 설정하는 부분이 DirectX11에서는 DrawInstanced / DrawIndexedInstanced 로 인스턴싱 전용 Draw 함수가 있다는 것과 SetVertexBuffer에서 n개의 버퍼를 설정할 수 있다는 것 말고는 흐름 자체는 매우 흡사합니다. <span style="font-size: 9pt;">자세한 설명은 </span><a href="http://blog.naver.com/sorkelf/40171221589" target="_blank">http://blog.naver.com/sorkelf/40171221589</a> 에 설명이 되어 있네요.</div><div><br/></div><div>Skinned Instancing도 해보고 싶지만, <span style="font-size: 9pt;">Vertex Texture Fetch를 하려면 </span><span style="font-size: 9pt;">텍스쳐 Lock / Unlock을 먼저 공부해야 하는군요. 아직 텍스쳐는 공부하고 있는 중이라... 언넝 텍스쳐랑 렌더타겟 관련해서 공부해서 테스트 해봐야 겠습니다.</span></div><div><span style="font-size: 9pt;"><br/></span></div><div>시간 날 때, 틈틈히 하는거라 오래 걸리네요. 마음은 이미 언리얼인데.. ㅎㅎ</div>

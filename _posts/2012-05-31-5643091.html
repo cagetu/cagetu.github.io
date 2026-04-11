@@ -2,6 +2,7 @@
 layout: post
 title: "Direct3D11에서 FullScreenQuad 그리기"
 date: 2012-05-31 18:51:11 +0900
+categories: [개발]
 ---
 
 <div>요즘에는 샘플코드를 참고하려고 해도, Direct3D11로 작성된 샘플들 밖에 없어서, Direct3D11을 모르면 이제 공부도 못하는 시기가 와버렸다. ㅠㅠ. (특히, DirectX Sample이나 NVIDA 샘플들...)</div><div><br/></div><div>반대로 생각하면, 해외에서는 Direct3D11이 꽤 보편적으로 사용되고 있다고 볼 수도 있지 않을까? 라는 생각도 해보게 된다. </div><div><br/></div><div>Direct3D11 코드를 보면, 새로운게 참 많아서 신기한데, 의외로 설명된 문서들이 많이 없어서, 당황스러울 때가 많다. 나 같은 경우야 Direct3D11을 바로 접하는 것이지만, 기본적으로 Direct3D10 -&gt; Direct3D11 이기 때문에 그런 듯!</div><div><br/></div><div>DirectX Sample을 보면, FullScreenQuad를 그리는 부분을 보고 당황했는데, SV_VertexID는 뭐고, 비트 연산도 막 하고, 막 달라!!! <span style="font-family: Verdana; ">이걸 보고 아~그렇구나! 를 알게 되었음!</span> </div><div><b>(#AltDevABlog : <a href="http://www.altdevblogaday.com/2011/08/08/interesting-vertex-shader-trick/" target="_blank">An interesting vertex shader trick</a>)</b></div><div>(Sementic 설명 : <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509647(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/windows/desktop/bb509647(v=vs.85).aspx</a>)</div><div><br/></div><div>Direct3D11로 프로젝트를 하지 않더라도, 테스트코드를 만들어볼 수 있도록 테스트베드 정도는 빨리 만들어 둬야 겠다!! 줸장!!</div><div><br/></div><div>요즘에는 왜 이렇게 새로운 것들이 많이 튀어나와가지고, 힘들게 하는지... 재미는 있는데, 다 하려면 으휴~ 부지런해져야겠다!!! 췟!</div>

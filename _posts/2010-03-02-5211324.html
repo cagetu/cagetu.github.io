@@ -2,6 +2,7 @@
 layout: post
 title: "G-Buffer를 어떻게?!"
 date: 2010-03-02 09:30:05 +0900
+categories: [일상]
 ---
 
 <a href="http://cagetu.egloos.com/5207029" title=""><span style="FONT-FAMILY: Verdana">Light Pre Pass(5)</span></a><span style="FONT-FAMILY: Verdana">를 작업하면서, 사용해야 할 Material(셰이더의 종류)이 늘어나면서 G-Buffer를 어떻게 처리해야 하는지에 대한 고민에 빠졌다.<br/>예를 들어, Rim Lighting 사용여부, 피부 셰이딩(lambSkin)등은 LightBuffer에서 계산되어야 하는 것들인데, 즉, G-Buffer를 통해서 Light-Buffer로 전달해야 한다는 말씀!!!<br/><br/>현재 G-Buffer를 테스트 용으로<br/>        R            G            B                A<br/>    Depth.x | Depth.y | Normal.x | Normal.y<br/><br/>로 저장한 상태인데, 아무래도 한 장을 더 사용해야 할 듯.<br/><br/>대략, 생각 같아서는<br/>            R                G                        B                      A<br/>0:    Depth.x     | Depth.y         | Normal.x        | Normal.y<br/>1:    RimEnable | SkinEnable    | SpecPower    |<br/> <br/>이런 식이 될 것 같은데, 압축을 한다거나, 효율적으로 사용하는 방법이 궁금합니다.<br/>작업 경험을 좀 나누어 주세효...<br/><br/>(MSAA와 반투명 오브젝트에 대해서는 더 생각을 해봐야 겠근영~)<br/></span>

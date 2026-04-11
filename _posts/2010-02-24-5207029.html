@@ -2,6 +2,7 @@
 layout: post
 title: "Light Pre Pass(5)"
 date: 2010-02-24 16:02:30 +0900
+categories: [개발]
 ---
 
 <a href="http://cagetu.egloos.com/5203695" title="">Light Pre Pass(4)</a>에 이어서, Post Processing 좀 추가해 보았음.<div><img alt="" loading="lazy" src="/assets/images/posts/5207029/c0001532_4b84cd907eacb.png"/></div><div>현재 Global Light 1개와 Point Light 32개를 넣어보았음. 속도의 저하는 Forward 라이팅으로 32넣은 것에 비하면 엄청난 결과</div><div><br/></div><div><img alt="" loading="lazy" src="/assets/images/posts/5207029/c0001532_4b84cdd8617ea.png"/></div><div>밑에 것은 Global Light 1개를 넣어서 랜더링 한 Forward Rendering의 결과.</div><div><br/></div><div>좀 더 연구할 것은<br/>1. Color 압축에 대한 부분인데, 아직 보지는 않았고, 듣기는 했음.</div><div>2. AmbientCube는 World 공간상의 normal을 사용해서, 값을 얻어오는데, G-Buffer의 Normal은 <br/>ViewSpaceNormal이기 때문에, 바로 사용할 수가 없다... 어떻게 World 공간의 Normal로 변경할 것인가?!<br/>3. 만약 마지막 패스(Material Pass)에서 NdotL의 값이 필요하다면, 어떻게 할것인가?<br/></div><div>일단 만족... Inferred로 넘어오라는 분들이 꽤 많은 듯... 다른 것들도 좀 조합해 봐야 겠다.<br/><br/>Q) View Space Normal -&gt; World Space Normal로 바꾸는 방법은?<br/>A) ViewSpaceNormal * Invert(Transposed View Matrix) 가 맞나요?!</div>

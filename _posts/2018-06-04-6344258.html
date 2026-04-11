@@ -2,6 +2,7 @@
 layout: post
 title: "glProgramBinary / glGetProgramBinary"
 date: 2018-06-04 10:57:43 +0900
+categories: [개발]
 ---
 
 <div>언리얼 관련해서 이야기를 나누다가 언리얼에 Shader Cache라는 기능이 있다고 해서, <span style="font-size: 9pt;">언리얼 문서 중에 "</span><a href="file:///D:/docs/%EA%BC%AD%20%EC%95%8C%EC%95%84%EB%91%90%EC%96%B4%EC%95%BC%20%ED%95%A0%20%EC%96%B8%EB%A6%AC%EC%96%BC%20%EC%97%94%EC%A7%84%204%20%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B8%B0%EB%8A%A5%20A-Z.PDF" style="font-size: 9pt;" target="_blank">꼭 알아두어야 할 언리얼 엔진 4 모바일 기능 A-Z</a><span style="font-size: 9pt;">"를 참고하면 된다고 해서 찾아보게 되었다.</span></div><div><span style="font-size: 9pt;"><br/></span></div><div><span style="font-size: 9pt;">내부적으로 셰이더 캐쉬를 사용하면 Compiling / Linking을 피할 수 있다고?? 이게 뭐지??</span></div><div><span style="font-size: 9pt;"><br/></span></div><div><span style="font-size: 9pt;">그래서 내부적으로 확인해봤더니, glGetProgramBinary / glProgramBinary 라는 함수에 비밀이 있었다. 예전에 자체엔진으로 작업해봤을 때에는 이 기능을 사용할 수 없어서 테스트해볼 기회가 없어서 모바일은 바이너리로 컴파일된 셰이더를 가지고 있을 수 없는 것으로 기억하고 있었다. 하지만, 이제는 glCompile -&gt; glLinkProgram까지 한 결과를 glGetProgramBinary로 뽑아서 저장하고 이후부터 glProgramBinary로 가져와서 사용하는 것이 가능한 것이다.</span></div><div><span style="font-size: 9pt;"><br/></span></div><div><span style="font-size: 9pt;">물론, 처음 컴파일은 발생하는데 언리얼 문서에서는 이것도 기기에서 한번 뽑아서 패키지해서 넣어두는 식으로 우회하는 방법도 소개를 했다. 사실 이렇게 되면 기기 드라이버마다 결과가 같다고 보장할 수 있나? 라는 의문이 생기기는 한다. 할 수만 있으면 오프라인에서 컴파일해서 가지고 가면 좋겠지만 그건 어려울 것 같다...</span></div><div><span style="font-size: 9pt;"><br/></span></div><div>몰랐던 것 하나 알고 간다. 신난다. ㅎㅎㅎ. (벌칸이나 메탈로 다 넘어가면 의미없게지~ 하~)<br/></div>

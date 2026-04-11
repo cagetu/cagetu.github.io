@@ -2,6 +2,7 @@
 layout: post
 title: "mipmap 디테일 높이기"
 date: 2007-03-30 18:16:23 +0900
+categories: [개발]
 ---
 
 이것 때문에 고민이 많았는데... kasa 모임 갔다가 물어봤더니, D3DSAMP_MIPMAPLODBIAS 를 이용하면 해결할 수 있다는 소리를 듣고 희망이 보였음..<br/>But~ d3d msdn 을 봤더니, "D3DSAMP_MIPMAPLODBIAS 기본값은 0 이다" 라고 나오고 끝.. 젠장할 것들.. -_-;;<br/>네이버 파도를 타다 Get... 포스팅 하신 분이 효자 코드라 하시더라.. ㅎㅎ<br/><br/><a href="http://blog.naver.com/rainbow3d?Redirect=Log&amp;logNo=130008332084" target="_blank" title="">출처</a><br/><br/>// 텍스쳐 LOD(Mipmap Detail 설정)<br/>float fLODBias = -3.0f;<br/>pDevice-&gt;SetSamplerState( 0, D3DSAMP_MAXMIPLEVEL, 0 ); <br/>pDevice-&gt;SetSamplerState( 0, D3DSAMP_MIPMAPLODBIAS, *((LPDWORD)(&amp;fLODBias)) );<br/><br/><img alt="" loading="lazy" src="/assets/images/posts/3253793/c0001532_06033261.jpg"/> <br/>적용 전...<br/><br/><img alt="" loading="lazy" src="/assets/images/posts/3253793/c0001532_06035979.jpg"/><br/>적용 후..<br/><br/>아따 많이 차이난다.. -_-;; 이것 때문에 그래픽 아저씨 하고 어찌나 싸웠던지.. 컹~ -_-;<br/><br/>좋은 자료 주신 님께 감사~<br/><br/>&lt;참고&gt;<br/>이것을 이용해서, 게임 옵션에 텍스쳐 디테일 설정을 해주어, 사양에 맞게 원하는 디테일을 설정할 수 있도록 해주면, 효과가 그만이구만.. ㅎㅎ.. 값이 너무 높으면, 안티알리아싱 때문에 지글거리니까, 주의하자~

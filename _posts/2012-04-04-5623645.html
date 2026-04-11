@@ -2,6 +2,7 @@
 layout: post
 title: "Soft Particle"
 date: 2012-04-04 19:04:29 +0900
+categories: [개발]
 ---
 
 <img alt="" loading="lazy" src="/assets/images/posts/5623645/c0001532_4f7c1b8ed242d.jpg"/><div><br/></div><div>Deferred Rendering Pipeline을 사용한다면, 5분이면 만들 수 있는 Soft Particle!!!!</div><div><br/></div><div>자세한 설명은 <a href="http://ozlael.egloos.com/2378679" target="_blank">오즈라엘 아저씨의 아티클 참고</a>~ </div><div><br/></div><div>[Linear Soft Particle]</div><div><span style="line-height: normal; text-align: left; background-color: rgb(230, 231, 232); ">fade = saturate((scene_depth – particle_depth) * scale);</span></div><div><br/></div><div>(Exponential SoftParticle 도 있데요~)</div><div><br/></div><div>하지만, Plane 마다 Texture Fetch를 한다고 생각하니 조금 아깝네.. ㅡㅡ;;</div><div>암튼, 쉽게 좋은 결과를 얻을 수 있다는 것은 분명함!!</div><div><br/></div><div>참고자료</div><div>- <a href="http://www.gamerendering.com/2009/09/16/soft-particles/">http://www.gamerendering.com/2009/09/16/soft-particles/</a></div><div>- <a href="http://blog.wolfire.com/2010/04/Soft-Particles">http://blog.wolfire.com/2010/04/Soft-Particles</a></div><div><br/></div>

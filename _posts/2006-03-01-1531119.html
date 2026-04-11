@@ -2,6 +2,7 @@
 layout: post
 title: "다음 엔진을 만들 때 고려해야 할 사항들..."
 date: 2006-03-01 01:31:03 +0900
+categories: [개발]
 ---
 
 [Container 및 Linked list 등의 기반 작업]<br/>-Array, list, map, queue, stack<br/>-Stl과 내가 만든 것과 비교도 해봐야 한다.<br/><br/>[Object System]<br/>-Controller를 최대한 이용하여, Controller를 이용할 수 있는 최대한의 것을 사용 가능하도록 해야 겠다..<br/>-Controller의 기능을 축소시켰더니, 이벤트를 처리하기가 너무 어렵더라..<br/><br/>[장면 그래프 기반]<br/>-Scene, Bone 등의 장면 노드들을 분리해서 만들어 놨는데, Node의 구조를 한번 생각해볼 필요가 있다.<br/>-너무 복잡하지 않도록, 연관 관계와 Update등의 기능이 각각의 요구사항을 먼저 분석하고 만들어야 할 필요가 있다..<br/>-SceneNode-&gt;BoneNode-&gt;SceneNode 이런 식으로 붙인다면, Update를 어떻게 할 것인지, 애니메이션은 어떻게 언제 업데이트 시킬 것인지, Culling은 어떻게 할것인지, Bounding 박스를 어떻게 언제 적용 시킬 것인지를 미리 전체적으로 생각하고, 구현 할 것..<br/><br/>[랜더 시스템]<br/>-쉐이더를 최적으로 구현 할 수 있는 구조<br/>-Multi pass 랜더링 구조<br/>-Layer 개념을 도입해야 하나?!<br/>

@@ -2,6 +2,7 @@
 layout: post
 title: "HLSLParser"
 date: 2014-09-11 18:25:15 +0900
+categories: [개발]
 ---
 
 <a href="http://cagetu.egloos.com/5830551" title="">Shader Compilation</a>에서 소개한 것처럼 HLSL 을 GLSL로 변환해주는 내용이 있었는데, <a href="http://the-witness.net/news/2014/08/hlslparser/" target="_blank">The Witness 개발 블로그</a>를 보다가 보니까 DirectX9를 DirectX11로 포팅하면서 HLSL 포팅하는 부분에서 고생을 좀 했다고 하면서, <a href="https://github.com/Thekla/hlslparser" target="_blank">HLSL Parser</a>를 소개해주는군요!<div><br/></div><div>원본 내용은 Netural Section 2라는 엔진에서 사용한 내용이라고 하네요.</div><div>(<a href="http://www.gamingonlinux.com/articles/natural-selection-2s-direct3d-hlsl-to-opengl-glsl-parser-open-sourced.3358" target="_blank">http://www.gamingonlinux.com/articles/natural-selection-2s-direct3d-hlsl-to-opengl-glsl-parser-open-sourced.3358</a>)</div><div><br/></div><div>솔직히 HLSL2GLSL이나 GLSL Optimizer 같은 녀석들은 좀 크고 복잡해서 어려웠어요. 특히 언리얼의 Preprocessor랑 합쳐지면.. @.@;;; 그런데, 이 녀석은 엄청 작고 간결해서 일단 마음이 좀 가볍네요. ㅎㅎㅎ</div><div><br/></div><div>아직 테스트를 해보지 않아서, 정확하게 어느 정도까지 변환이 되는지 모르겠지만, Cross Platform 엔진을 고려하지 않을 수 없는 상황이기 때문에 조만간 전부 테스트해봐야 할 것 같네욥...</div><div>(몰론, 최신 사용엔진들은 이런 것들이 내부적으로 지원하는 것이니 신경쓰지 않으셔도 됩니다.. ㅎㅎㅎ)</div><div><br/></div><div>점점 DirectX11를 다루어 봐야 할 시간이 가까워 오는 것 같네요.. ㅎㅎㅎ;;;</div>
