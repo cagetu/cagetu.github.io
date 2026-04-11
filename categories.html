@@ -8,7 +8,7 @@ permalink: /categories/
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
   <div class="cat-section">
-    <h3 style="font-size:16px; font-weight:500; margin:24px 0 12px;">
+    <h3 id="{{ category[0] }}" style="font-size:16px; font-weight:500; margin:24px 0 12px;">
       {{ category[0] }} <span style="font-size:13px; font-weight:400; color:#999;">({{ category[1].size }}개)</span>
     </h3>
     <ul style="list-style:none; padding:0; margin:0;">
