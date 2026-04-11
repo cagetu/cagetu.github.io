@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Screen Space Reflection"
+date: 2020-05-27 00:52:42 +0900
+---
+
+<div><span style="font-size: 9pt;">참고자료</span></div><div>* <a href="https://www.slideshare.net/xtozero/precomputed-atmospheric-scattering-156956686?next_slideshow=1">https://www.slideshare.net/xtozero/precomputed-atmospheric-scattering-156956686?next_slideshow=1</a></div><div>* <a href="https://blog.naver.com/PostView.nhn?blogId=daehuck&amp;logNo=220450852220&amp;parentCategoryNo=&amp;categoryNo=20&amp;viewDate=&amp;isShowPopularPosts=true&amp;from=search">https://blog.naver.com/PostView.nhn?blogId=daehuck&amp;logNo=220450852220&amp;parentCategoryNo=&amp;categoryNo=20&amp;viewDate=&amp;isShowPopularPosts=true&amp;from=search</a></div><div>* <a href="https://www.ea.com/frostbite/news/stochastic-screen-space-reflections" style="font-size: 9pt;">https://www.ea.com/frostbite/news/stochastic-screen-space-reflections</a></div><div><br/></div><div>직접 구현해보지는 못했지만, UE를 가지고 게임을 만들면서 사용하게 되는 기술이니 자료 읽고 원리를 이해하자. 직접 구현해본 이후로 나온 기술들이 참 많구나. 반성된다 ;;;</div><div><br></div>

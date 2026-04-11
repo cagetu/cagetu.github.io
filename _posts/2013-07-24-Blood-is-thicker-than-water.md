@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Blood is thicker than water!"
+date: 2013-07-24 12:33:35 +0900
+---
+
+<img alt="" loading="lazy" src="/assets/images/posts/5759688/c0001532_51ef4ac788c86.jpg"/><div>이게 무슨일이래? ㅋㅋㅋ</div>

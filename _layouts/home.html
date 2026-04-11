@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="home">
+  <h2 class="post-list-heading">최근 글</h2>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+    <li class="post-item">
+      <time class="post-meta">{{ post.date | date: "%Y.%m.%d" }}</time>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">← 이전</a>
+    {% endif %}
+    <span>{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">다음 →</a>
+    {% endif %}
+  </div>
+</div>

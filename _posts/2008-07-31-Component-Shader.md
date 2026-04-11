@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Component Shader"
+date: 2008-07-31 18:18:24 +0900
+---
+
+<img alt="" loading="lazy" src="/assets/images/posts/4523432/c0001532_489182923dcb0.jpg"/>이런 그림의 Component 식 shader editor를 만들고자..<br/>(툴을 아직 못 만들어서, 간단한 계층만...)<br/><br/>참고자료<br/><a href="http://gamecode.org/tt/entry/visualshadereditor" target="_blank" title="">noerror님의 visual shader editor</a>Component 목록들....<br/><img alt="" loading="lazy" src="/assets/images/posts/4523432/c0001532_489182f8aef31.jpg"/>이렇게 나누었음..<br><br><img alt="" loading="lazy" src="/assets/images/posts/4523432/c0001532_4891831ec1cf5.jpg"/>툴이 없어서, 파일을 이용해서 작업... 빡세다.. ㅡㅡ;;<br><br>결과... 아직 할게 많다.. ㅡㅡ;;<br/><img alt="" loading="lazy" src="/assets/images/posts/4523432/c0001532_489183506af28.jpg"/><br/>[tip]<br/>-Component에 입력값이 없을 경우에는, 분기로 입력을 받지 않은 shader 코드를 생성할 수 있어야 한다.<br/>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "SecondLife ?!"
+date: 2007-07-09 12:09:37 +0900
+---
+
+<img alt="" loading="lazy" src="/assets/images/posts/3581189/c0001532_12075344.jpg"/><br/><a href="http://secondlife.com/world/kr/" target="_blank" title="">세컨드 라이프 한국 홈페이지</a><br/><a href="http://www.smartplace.co.kr/blog_post_161.aspx" target="_blank" title="">스마트 플레이스의 SecondLife에 관련 포스팅</a><br/><br/>기사들을 보다가 하도 세컨드 라이프가 회자 되길래 무엇인가 찾아봤더니, 저런 것이 더군..<br/>게임을 기반으로 해서, 일상생활을 가상으로 해서, 제 2의 일상 생활을 한다는 것..<br/><br/>근데, 거기서, 상거래가 이루어지고, 또다른 경재활동이 발생되다는 것... 항간에는 게임 2.0 이 이런 것이 아니겠느냐? 라고 이야기 한다.<br/><br/>글쎄? 선택은 즐기는 사람이 하겠지..<br/><br/>그래도 무심코 넘어가기에는 발전 속도와 그 경제 규모가 꽤 커지는 것 같으니 관심은 가져 보죠~<br/><br/>근데 난 왜 설치했는데 실행이 안되고, 계속 뻑나고 난리야~!!? 췟~ -_-;

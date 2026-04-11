@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Newwell Normal"
+date: 2012-01-27 11:42:43 +0900
+---
+
+<a href="http://cagetu.egloos.com/5593392" title="">Polygon Clipping</a>에 관련된 내용을 Orge3D에서 보다가 알게된 내용... 폴리곤에 대한 빠른 노말 구하는 법!<div><br/></div><div>Newell Method<br/><div><div>- <a href="http://jgt.akpeters.com/papers/Sunday02/">http://jgt.akpeters.com/papers/Sunday02/</a></div><div>- <a href="http://jgt.akpeters.com/papers/Sunday02/FastArea.html">http://jgt.akpeters.com/papers/Sunday02/FastArea.html</a></div><div><br/></div><div>차이점은 일반 Normal을 구하는 방법은 Triangle을 기준으로 3점의 에서 두 벡터의 직교를 구하는 방식인데 반해, 임의의 3D 폴리곤에 대한 Normal을 구하는 방법이라고 함.</div></div><div>- <a href="http://www.opengl.org/wiki/Calculating_a_Surface_Normal">http://www.opengl.org/wiki/Calculating_a_Surface_Normal</a></div><div><br/></div><div>Polygon과 Convex는 복잡해... ㅜㅜ</div><div><br/></div></div>

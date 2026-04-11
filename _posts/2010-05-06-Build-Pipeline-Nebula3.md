@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Build Pipeline - Nebula3"
+date: 2010-05-06 23:02:53 +0900
+---
+
+<div><img alt="" loading="lazy" src="/assets/images/posts/5262740/c0001532_4be2cb1a2c2ac.png"/></div><a href="http://flohofwoe.blogspot.com/2010/04/build-pipeline.html" target="_blank">Nebula3의 Build Pipeline</a>라고 블로그에 새로운 포스트가 올라왔군요. 처음 네뷸라를 보았을 때, Build System을 잘 이해하지 못했는데(사실 지금도 정확히는... ㅡㅡ;), 거의 완성이 되었나 봅니다.<div><br/></div><div>뭐, 온라인게임을 개발한다면, 약간 다른 식으로 접근해야 할지도 모르지만, 엔진 만들 때, 참고하면 좋을 듯...</div><div>(Command Line Tool로 만드는 것이 나름 괜찮은데, 여러 가지로 재사용할 때가 많은 것 같습니다.)</div>

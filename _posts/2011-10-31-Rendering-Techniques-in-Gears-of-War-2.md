@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Rendering Techniques in Gears of War 2"
+date: 2011-10-31 14:27:35 +0900
+---
+
+<a href="http://portsnake.tistory.com/entry/gears-of-war2" target="_blank" title="">니시카와 젠지의 3D게임 팬을 위한「Gears of War 2」그래픽스 강좌</a><br/><br/><a href="http://www.gdcvault.com/play/1295/Rendering-Techniques-in-GEARS-OF" target="_blank" title="">GDC 발표 영상 보기</a><div><a href="http://www.google.co.kr/url?sa=t&amp;rct=j&amp;q=rendering%20techniques%20in%20gears%20of%20war%202&amp;source=web&amp;cd=2&amp;ved=0CE8QFjAB&amp;url=http%3A%2F%2Fwww.unrealengine.com%2Ffiles%2Fdownloads%2FGDC09_Smedberg_RenderingTechniques.pdf&amp;ei=di6uTqv8La2viQeaovztDw&amp;usg=AFQjCNE4oNa9bN9Mv0bcuv05edHhEobzpw">발표자료 받기</a></div><div><br/></div><div>특히, 언리얼이 어떻게 SSAO에 접근했는지를 정말 디테일하게 설명해주는 킹왕짱 발표임.. 언리얼 엔진의 셰이더 코드를 보면서, 이해가 잘 안되었던 부분들을 친절히 설명해주니... 친절하 Epic씨~ ㅎㅎㅎ </div><div><br/></div><div>Gears of War2도 이렇게 짱이심인데, Gears of war 3가 나오는 시점인데, Unreal3는 정말 훌륭하네요... 부럽....</div><div><br></div>

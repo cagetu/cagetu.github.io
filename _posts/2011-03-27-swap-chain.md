@@ -1,0 +1,7 @@
+---
+layout: post
+title: "swap chain"
+date: 2011-03-27 17:16:24 +0900
+---
+
+<div>생각해보니 swap chain을 구현해보지는 않았었음... 그냥 Device를 두 개 만들었지.. ㅋㅋ.</div><div><span class="Apple-style-span" style="font-family: Verdana; ">이 참에 정리... </span></div><div><br/></div><div>왠지 swap chain을 이용하면, 인터페이스를 맞춰야 할 것 같군...</div><div><span class="Apple-style-span" style="font-family: Verdana; ">(Device를 분리하는 선택은 에디터에서는 나쁘지 않은 듯... 게임 내 Viewport는 Swap chain으로 하는 것이 좋겠군...)</span></div><div><span class="Apple-style-span" style="font-family: Verdana; "><br/></span></div><div>[참고자료]</div><div><a href="http://blog.naver.com/han8315?Redirect=Log&amp;logNo=70020393085">http://blog.naver.com/han8315?Redirect=Log&amp;logNo=70020393085</a></div><div><a href="http://blog.naver.com/preknife?Redirect=Log&amp;logNo=26829222">http://blog.naver.com/preknife?Redirect=Log&amp;logNo=26829222</a></div><div><a href="http://www.codesampler.com/dx9src/dx9src_1.htm#dx9_swap_chains">http://www.codesampler.com/dx9src/dx9src_1.htm#dx9_swap_chains</a></div><div><br/></div>

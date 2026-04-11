@@ -1,0 +1,90 @@
+/* cagetu 블로그 스타일 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans KR', -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  background: #fafafa;
+}
+
+.wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 헤더 */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+.site-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333;
+}
+.site-desc {
+  font-size: 13px;
+  color: #999;
+  margin-top: 4px;
+}
+
+/* 목록 */
+.post-list { list-style: none; }
+.post-item {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.post-meta { font-size: 13px; color: #999; white-space: nowrap; }
+.post-link { text-decoration: none; color: #333; }
+.post-link:hover { color: #0066cc; }
+.post-list-heading { font-size: 18px; margin-bottom: 16px; }
+
+/* 페이지네이션 */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
+.pagination a { color: #0066cc; text-decoration: none; }
+
+/* 포스트 */
+.post-header { margin-bottom: 24px; }
+.post-title { font-size: 26px; line-height: 1.4; margin-bottom: 8px; }
+.post-date { font-size: 13px; color: #999; }
+.post-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 12px 0;
+}
+.post-content a { color: #0066cc; }
+.post-nav { margin-top: 24px; }
+.post-nav a { color: #666; text-decoration: none; font-size: 14px; }
+
+/* 푸터 */
+.site-footer {
+  margin-top: 60px;
+  padding: 24px 0;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+}

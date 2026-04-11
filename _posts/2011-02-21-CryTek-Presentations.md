@@ -1,0 +1,7 @@
+---
+layout: post
+title: "CryTek Presentations"
+date: 2011-02-21 17:31:51 +0900
+---
+
+<a href="http://www.crytek.com/cryengine/presentations" target="_blank">crytek presentations</a> 사이트가 있는지 이제야 알았네요... 이런.. ㅡㅡ<div><br/></div><div>그 동안 못 봤던 것 쭈욱 공부해봐야 겠습니다.</div><div><br/></div><div>어제 카사모임에서 "<a href="http://www.realtimerendering.com/blog/cascaded-light-propagation-volumes-for-indirect-illumination/" target="_blank">Cascaded Light Propagation Volumes for Real Time Indirect Illumination</a>"을 장호님이 친절하게 설명해주셨는데, 혼자서 볼 때는 잘 모르는 부분이 많아서, 그냥 넘어갔었던 부분을 조금 이해 할 수 있게 되었음.</div><div><br/></div><div>올해 초부터 이것 저것 정신이 안드로메다로 가 있어서, 그래픽스 공부를 많이 못했는데, 지속적으로 더 많이 노력해야 겠다라는 생각을 하는 계기가 되었음... (감사~ 감사~)</div><div><br/></div><div>구현까지 갈지는 모르겠지만, 리서치를 꾸준히 해야 겠음... Go~ Go~</div><div><br></div><div><div><div><br/></div></div></div>

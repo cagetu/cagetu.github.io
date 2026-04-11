@@ -1,0 +1,7 @@
+---
+layout: post
+title: "shadow mapping - wikipedia"
+date: 2011-02-22 09:51:15 +0900
+---
+
+<div><a href="http://cagetu.egloos.com/5335746" title="">Sample Distribution Shadow Maps</a>이 그래도 가장 최신 동향이긴 한 것 같은데, </div><div><br/></div><div>위키피디아 <a href="http://en.wikipedia.org/wiki/Shadow_mapping#Drawing_the_scene" target="_blank">Shadow Mapping</a> 정리를 통해서, 복습.. 복습...</div><div><br></div><div>&lt;...&gt;</div><div>*Lighting 공식에 그림자를 어떻게 섞을까??</div><div>(dimming 참고)</div><div><br/></div>

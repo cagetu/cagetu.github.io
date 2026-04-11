@@ -1,0 +1,7 @@
+---
+layout: post
+title: "The White Chocolate"
+date: 2008-09-30 09:31:16 +0900
+---
+
+<img alt="" loading="lazy" src="/assets/images/posts/4643167/c0001532_48e173404e066.jpg"/><br/><br/><a href="http://news.naver.com/sports/index.nhn?category=basketball&amp;ctg=news&amp;mod=read&amp;office_id=049&amp;article_id=0001942319" target="_blank" title="">베테랑 PG 제이슨 윌리엄스, 은퇴 선언</a> <br/><br/>이 인간이 누구냐고?!<br/>98, 99, 00년도 즈음에 NBA를 좋아했던 사람들이라면, 알만한 엄청난 녀석...<br/>백인으로, 어시스트가 얼마나 화려할 수 있는지를 알게 해준 녀석... <br/><br/>특히, 올스타전에서 팔꿈치 패스는 보고도 믿기지 않았더랬죠.. ㅎㅎ<br/><br/>나이가 들면서, 서서히 안정적인 모습을 보여주려고 노력은 했지만, 전성기 시절에는 정말 굉장했지요.. ㅎㅎ<br/><br/>이 당시 새크라멘토 킹즈가 정말 죽여줬었는데.. ㅡㅡ<br/>페야, 웨버, 디박, J-Will... 화려함의 극이었지요... <br/>새크라멘토 경기는 꼭 챙겨서 봤던 기억이 나네요.. ㅎㅎ<br/><br/><a href="http://tvpot.daum.net/clip/ClipView.do?clipid=7891561&amp;searchType=0&amp;page=1&amp;rowNum=4&amp;sort=wtime&amp;svctype=1&amp;q=%EC%A0%9C%EC%9D%B4%EC%8A%A8+%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4" target="_blank" title="">동영상 보러가기</a>

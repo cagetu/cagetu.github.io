@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Physically Based Lighting in Call of Duty : Black Ops (Siggraph2011)"
+date: 2011-08-30 18:36:19 +0900
+---
+
+2010년도 Siggraph의 Physically Based Lighting 발표한 내용과 이어지는 내용인 것 같네요. <div>(<a href="http://cagetu.egloos.com/5402431" title="">Everything is shinny</a>로 쭉 따라가시면서 읽어보시면 도움이 될 듯)</div><div><br/></div><div>몰랐는데, 두 발표자님이 모두 activition 에서 근무하시는구만요...</div><div><br/></div><div>크게는 주 라이팅과 이미 만들어진 라이팅에 대해서 소개인데, 둘 다 참고할게 무지 많네요.</div><div>(Forward Rendering으로 끝냈다는 용자들임... 오호~)</div><div><br/></div><div>주 광에 대해서는 Microfacet BRDF 를 2010년도 내용과 연결해서 더 많은 결과들이 소개가 되었는데, 테스트 해보니, 낼름 받아먹으면 될 듯.. ㅎㅎ</div><div>(2010년도 내용에는 Visibility Function을 계산하지는 않았는데 말이죠...)</div><div><br/></div><div>lightprobe와 environment probe를 이용해서, diffuse와 specular 색상을 얻어오는 부분인데, 이건 car2 rendering 문서에도 소개가 어 있고, cryengine3 에서도 적극 도입했다고 나오고, 암튼 좀 디테일하게 파 봐야 할 듯 합니다. 사실 이건 그리 관심있게 보지는 않았었는데, 이전 부터 계속 언급이 되어 있었죠. 확실한 것은 퀄리티 차이가 어머 어마 하다는 것!!!</div><div><br/></div><div>GOW3 Dynamic Lights 문서도 올라와 있던데, 살짝 봐서는 뭔지 잘 모르겠드만요. 이것도 좀 봐야 할 듯...</div><div>(누가 보고 좀 알려둬~요~)</div><div><br/></div><div><strike>아마 이 내용을 가지고 2주 정도 후에 카사모임에서 발표할 듯...</strike></div><div><br/></div><div>[참고]</div><div><a href="http://en.wikipedia.org/wiki/BRDF" target="_blank">BRDF</a></div><div><a href="http://glog.springnote.com/pages/7272725">http://glog.springnote.com/pages/7272725</a></div><div><br></div>

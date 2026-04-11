@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Color Grading"
+date: 2010-11-02 12:32:00 +0900
+---
+
+<div><img alt="" loading="lazy" src="/assets/images/posts/5382484/c0001532_4ccf85be3a871.jpg"/></div><div>[unreal의 사례]</div><div><br/><span style="FONT-FAMILY: Verdana"></span></div><a href="http://udn.epicgames.com/Three/ColorGradingKR.html">http://udn.epicgames.com/Three/ColorGradingKR.html</a><div><span class="Apple-style-span" style="FONT-FAMILY: Verdana"><a href="http://en.wikipedia.org/wiki/Color_correction">http://en.wikipedia.org/wiki/Color_correction</a></span></div><div><a href="http://http.developer.nvidia.com/GPUGems/gpugems_ch22.html"><span style="FONT-FAMILY: Verdana">http://http.developer.nvidia.com/GPUGems/gpugems_ch22.html</span></a><br/><span style="FONT-FAMILY: Verdana"><a href="http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html">http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html</a></span></div><div><a href="http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html"></a>ShaderX3권 Color Grading<br/><br/></div><div><span style="FONT-FAMILY: Verdana">마침 CG책을 보다가 Color Correction으로 아티스트가 마무리 작업을 한다는 것에 궁금해서, Color Correction을 역추적하다가 <span class="Apple-style-span" style="FONT-FAMILY: Verdana">만나 녀석!!</span></span></div><div><br/><span style="FONT-FAMILY: Verdana"></span></div><div>마침 어제 학현님의 댓글도 있고 하니, 겸사 겸사 정리 할 예정!</div><div><span style="FONT-FAMILY: Verdana">("아티스트에게 자유를 주겠어!!!" ㅎㅎㅎ)</span></div>

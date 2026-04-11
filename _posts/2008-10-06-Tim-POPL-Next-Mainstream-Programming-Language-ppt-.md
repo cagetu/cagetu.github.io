@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Tim POPL Next Mainstream Programming Language ppt Presentation"
+date: 2008-10-06 10:00:15 +0900
+---
+
+<a href="http://www.authorstream.com/Presentation/DC_Cloepatra-54395-Tim-POPL-Next-Mainstream-Programming-Language-Game-Developers-Perspective-as-Education-ppt-powerpoint/" target="_blank" title="">Tim POPL Next Mainstream Programming Language ppt Presentation</a><br/>어제 카사 모임에서 teze님이 발표하신 내용입니다.<br/><br/>Concurrency, Reliability<br/>문제를 해결하기 위한 고찰과 방향에 대한 내용이 있구요..<br/>함수형 언어(Haskell)에서 아이디어를 많이 얻어왔군요..<br/>(내용이 넘 어려워요.. ㅡㅡ;;)<br/><br/>언리얼이야 자체 스크립트 언어를 사용하기 때문에, 조금 더 깊은 내용을 고민하는군요..<br/><br/>하지만, 라이트 유저(?!) 인 개발자들도 생산성을 높이기 위해, 발전해 가는 하드웨어의 성능을 최대한 사용하기 위해서, 고민을 많이 해봐야 할 것입니다.<br/><br/>여기서 소개되는 내용은 엔진 레이어의 이야기가 아닌, 게임 레이어에서의 이야기입니다. 즉, 게임 개발자들이 생산성 높은 코드나 스크립트(게임 프레임웍)을 구축하느냐는 것이 개인적으로는 고민을 해봐야 할 문제라고 생각이 드는군요..<br/><br/><a href="http://kimsama.egloos.com/1813868" target="_blank" title="">김사마님이 쓰신 글도 한번 참고해 보세요 ^^</a>

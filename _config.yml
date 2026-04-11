@@ -1,0 +1,24 @@
+title: cagetu의 블로그
+description: egloos에서 이전한 블로그 아카이브 (2005~2023)
+baseurl: ""
+url: ""
+
+# 빌드 설정
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year/:month/:day/:title/
+
+# 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# 페이지네이션
+paginate: 10
+paginate_path: "/page/:num/"
+
+# 제외 파일
+exclude:
+  - convert_egloos.py
+  - Gemfile.lock

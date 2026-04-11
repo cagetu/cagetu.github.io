@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Cinematography"
+date: 2012-10-17 18:37:47 +0900
+---
+
+이번 KGC12에서 가장 기억에 남는 강연이 하나가 있는데, 바로 롭 러펠님의 Cinematography 에 대한 키노트였다.<div><br/></div><div><a href="http://www.thisisgame.com/board/view.php?id=1307427&amp;board=&amp;category=17602&amp;subcategory=&amp;page=1&amp;best=&amp;searchmode=&amp;search=&amp;orderby=&amp;token=">[디스이즈게임] 영화 같은 게임 언차티드, 연출도 '영화처럼'</a></div><div><a href="http://www.inven.co.kr/webzine/news/?news=48579">[인벤] 게임 그래픽 끝판왕! 언차티드 아트 총괄 디렉터 '롭 러펠' 인터뷰</a></div><div><br/></div><div>사실 Cinematography라는 단어를 이 강연에서 처음 보았다. 하지만, 보면서 이게 어떤 것인지, 무엇을 보여주려고 했던 것인지를 알 수 있게 되었고, 깊은 감명을 받았다.</div><div><br/></div><div>평소에 아트에 대한 감각에 대해서 너무나 부족함을 많이 느끼고, 고민이 많았는데, 이 강연을 기반으로 무엇을 어떻게 접근해 나가야 하는지를 조금은 알 것도 같고, 흥미도 느끼게 되었다. </div><div><br/></div><div>찾아보니, "시네마토그래피 촬영의 모든 것"이라는 책이 하나 있길래, 바로 주문 신청해버렸다. 흥미롭다!!</div><div><img alt="" loading="lazy" src="/assets/images/posts/5686642/c0001532_507e7b7838682.jpg"/></div><div><br/></div><div>결국, 아이폰이라도 들고 나가서, 내가 원하는 결과를 얻기 위해서 사진을 열심히 찍다보면, 어느 정도 알 수 있지 않을까?</div><div><br/></div><div>갈 길이 멀구나!!! 세계의 길은 멀어!!!! </div><div><br></div>

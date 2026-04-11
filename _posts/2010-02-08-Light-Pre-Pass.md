@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Light Pre Pass"
+date: 2010-02-08 00:21:35 +0900
+---
+
+<a href="http://cagetu.egloos.com/5002589" title=""><span style="FONT-FAMILY: Verdana">Light Pre-Pass 소개</span></a><span style="FONT-FAMILY: Verdana">가 된지 꽤 시간이 흘렀군요. (1년?)<br/>이제사 한번 만들어보게 되네요. <br/><img alt="" loading="lazy" src="/assets/images/posts/5194274/c0001532_4b6ed8226cd6c.png"/><br/>이건 LightBuffer를 한번 만들어 본 것입니다. (Global Light + Point Light)<br/>정상적으로 나온 것인지는 더 해봐야 알 것 같구요. <br/>(일단 여기까지만 해서.. ㅎㅎ)<br/><br/>아직까지는 작업 과정이 Deferred Lighting 작업해볼 때랑 크게 다른 것은 없군요. 뭐, 하다보면 부딪히는 문제점들이 생기겠지요 뭐...<br/><br/>일단은 </span><a href="http://diaryofagraphicsprogrammer.blogspot.com/2008/03/light-pre-pass-renderer.html" target="_blank"><span style="FONT-FAMILY: Verdana">Wolfgan 아저씨의 블로그 내용</span></a><span style="FONT-FAMILY: Verdana">을 토대로 작업을 해보고 있구요. 결과가 나오면, </span><a href="http://www.bungie.net/News/content.aspx?type=topnews&amp;link=Siggraph_09" target="_blank"><span style="FONT-FAMILY: Verdana">Wolfgan 아저씨의 Siggraph09 자료 내용</span></a><span style="FONT-FAMILY: Verdana">을 가지고 더 해볼까 생각합니다.<br/><br/>뭐, 작업 결과가 궁금한데, 물어볼 곳이 딱히 없군요. <br/>(상용엔진이 전부 제공해주어서 그런가? 전 상용엔진을 사용해본 적은 없어서... ㅡㅡ;)<br/><br/>조만간 Kasa를 통해서, 이야기를 할 기회가 생길 것 같으니, 미리 준비를 해두어야 겠어요.. ㅎ</span>

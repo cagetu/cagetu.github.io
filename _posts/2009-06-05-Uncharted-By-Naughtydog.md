@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Uncharted By Naughtydog"
+date: 2009-06-05 20:15:29 +0900
+---
+
+<span style="FONT-FAMILY: Verdana"><img alt="" loading="lazy" src="/assets/images/posts/4970631/c0001532_4a28fd3ace96f.jpg"/></span><a href="http://ruliweb.nate.com/data/rulinews/read.htm?num=16980" target="_blank"><span style="FONT-FAMILY: Verdana">Uncharted2 플레이 동영상</span></a><span style="FONT-FAMILY: Verdana">을 보았습니다. PS3가 없어서, 해보지는 못하지만, 보기만 해도 와우~ 이건 완전 영화군요. 박진감과 연출이... 허거..<br/><br/>저는 잭&amp;덱스터부터 Naughtydog이라는 개발팀의 팬인데, 이 님들 좀 짱인듯....<br/>역시 잘 만드십니다. -0-;;<br/><br/>생각난 김에, </span><a href="http://www.naughtydog.com/corporate/press/GDC%202008/" target="_blank"><span style="FONT-FAMILY: Verdana">GDC08에서 강연했던, 님들의 발표자료</span></a><span style="FONT-FAMILY: Verdana">를 올립니다.<br/><br/>우리도 이렇게 간지나게 만들어 봅세다.. 후훗!!</span>

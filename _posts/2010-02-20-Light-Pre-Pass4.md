@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Light Pre Pass(4)"
+date: 2010-02-20 01:54:43 +0900
+---
+
+<a href="http://cagetu.egloos.com/5202431" title=""><span style="FONT-FAMILY: Verdana">Light Pre Pass(3)</span></a><span style="FONT-FAMILY: Verdana">에 Point Lighting을 추가하였다.<br/>아직, 라이팅 공식이 완벽하지는 않은 것 같고, ShaderX7권에 소개된 방법 내용도 봐야 할 것 같다. (ShaderX7권 1주일 만 빌려줘.. ㅡㅡ;)<br/><img alt="" loading="lazy" src="/assets/images/posts/5203695/c0001532_4b7ec19103c91.png"/><br/>현재 Global Light 1개 와 Point Light 8개<br/><br/>사용한 포인트 라이트 계산 공식<br/>DiffuseTerm = LightDiffuse * saturate(diffIntensity+rimIntensity.x) * attenuation;<br/>Output = float4(DiffuseTerm.xyz, SpecuarIntensity * attenuation);<br/><br/>SpotLight도 추가해봐야겠다.<br/></span>

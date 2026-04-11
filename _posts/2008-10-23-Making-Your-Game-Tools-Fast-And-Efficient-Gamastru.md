@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Making Your Game Tools Fast And Efficient - Gamastrua"
+date: 2008-10-23 10:58:00 +0900
+---
+
+<a href="http://www.gamasutra.com/view/feature/3798/making_your_game_tools_fast_and_.php" target="_blank">Making Your Game Tools Fast And Efficient</a><br/><br/>생산성 향상이라는 issue를 해결하기 위해서, 게임쪽에서는 툴 작업이 그 중에 하나이다.<br/><br/>엔진의 인터페이스를 변경하지 않고, 툴을 빠리고 효과적으로 만들려면?! <br/>동적으로 추가된 내용이 툴에 적용되려면?!<br/><br/>Component System 과 Reflection이 왜 필요할까요?! <br/><br/>지금 제가 공부하고 작업하고 있는 내용하고도 맞물리네요..<br/><br/>[관련 자료]<br/><a href="http://nocturnal.insomniacgames.com/index.php/Main_Page" target="_blank">Nocturnal Tool Framework</a><br/><br/>[관련 글]<br/><a href="http://cagetu.egloos.com/4671069" target="_blank">C#에서의 Property C++로 구현하기</a><br/><a href="http://cagetu.egloos.com/4676169" target="_blank">C#에서 Reflection 내용 알아보기</a><br/><a href="http://cagetu.egloos.com/4572252" target="_blank">Component System에 대한 내용 정리</a><br/><br/>위의 내용과 맞물려서, Component System과 관련해서 공부한 내용은 따로 정리를 해놓았는데, 이번 주/다음 주에 KASA 모임을 통해서, 2주에 걸쳐서, 김학현님과 시리즈로 발표할 예정입니다.<br/><br/>발표 주제는 "무작정 Component System 프로젝트에 적용해보기?!" 입니다.. ㅎㅎ

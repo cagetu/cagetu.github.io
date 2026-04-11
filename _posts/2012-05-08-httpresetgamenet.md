@@ -1,0 +1,7 @@
+---
+layout: post
+title: "http://reset-game.net/"
+date: 2012-05-08 16:26:27 +0900
+---
+
+<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/KLd8kEQJIzw" width="560"></iframe><div><br/></div><div><a href="http://reset-game.net/">http://reset-game.net/</a> </div><div><br/></div><div>2인 개발 중인 1인칭 퍼즐 게임이라고 한다. 이 장면은 본인이 개발한 렌더링 엔진에서 돌아가는 영상이라고 한다.</div><div>대박 짱이다.. ㅜㅜ;;; </div><div><br/></div><div>나도 저렇게 만들고 싶은데, 난 죽어야 하나?! 라고 생각했는데, 알고보니, 이 분들은 FutureMark에서 일하시던 분들이라고....</div><div><br/></div><div>역시 그냥 이런게 나오는게 아니쥐..... 블로그에 올라와 있는 깨알 같은 에디터 파라미터들을 보라.. ㅜㅜ;;;</div><div><br/></div><div>졸 멋지다.... 줸장!~!!!</div>

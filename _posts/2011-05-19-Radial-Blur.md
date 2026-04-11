@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Radial Blur"
+date: 2011-05-19 20:08:47 +0900
+---
+
+<div>볼 때 마다 새로운 라디얼 블러 만들기.</div><div><br/></div><div>1. 라디얼 블러 중심점 에서 Pixel 까지의 벡터구하기.</div><div>2. 샘플링 스텝 구하기</div><div>3. 스템 수 만큼 샘플링 하여 평균값 구하기.</div><div><br/></div><div>=&gt; 라디얼 블러 중심에서 Pixel까지의 평균 색상을 구한다.</div><div><br/></div><div>float2 CenterToPixel = RadialCenter - In.Texcoord;</div><div>float2 Delta = CenterToPixel / NUM_SAMPLES;</div><div>float2 Dir = normalize(Delta);</div><div>float2 Length = length(Delta) * Scale;</div><div><br/></div><div>float3 Sum = 0;</div><div>for (int i=0; i&lt;NUM_SAMPLES; i++)</div><div>{</div><div><span class="Apple-tab-span" style="white-space:pre"></span>Sum = tex2D(Source, In.Texcoord + Dir * Length * i);</div><div>}</div><div>Sum /= NUM_SAMPLES;</div><div><br/></div><a href="http://cagetu.egloos.com/5398300" title="">God Rays</a>도 참고...
