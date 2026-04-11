@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Shader Explosion"
+date: 2010-03-05 13:33:53 +0900
+---
+
+<p><span style="FONT-FAMILY: Verdana">셰이더 폭발에 대해서 어떻게 대체 하고 있는지가 듣고 싶습니다...<br/>저는 Uber Shader를 사용하는 쪽으로 방향을 정하고 있습니다만,  포럼에서 Uber Shader는 "속도 상의 문제와 약간은 높은 수준의 그래픽 카드를 요한다"는 의견이 지배적이군요.<br/>(물론, 국내 현실에서는 별 문제가 없을 것 같기는 합니다만...)<br/><br/>그래서, 외국의 경우에는 Static Branch를 많이 사용하는 듯 합니다.<br/>(아주 복잡하지 않은 조합의 경우가 되겠지요?!)<br/><br/>현재 작업 하시는 분들의 소견을 듣고 싶습니다.<br/><br/>- Shader Permutation<br/>- Static Branch<br/>- Dynamic Branch<br/>이 정도의 Keyword가 되려나?<br/><br/></span></p><p><span style="FONT-FAMILY: Verdana">DirectX11에서 Dynamic Shader Linkage라는 개념이 있었군요.</span></p><p><span style="FONT-FAMILY: Verdana"><br/>[참고 내용]<br/></span><a href="http://www.gamedev.net/community/forums/topic.asp?topic_id=513398" target="_blank"><span style="FONT-FAMILY: Verdana">Shaders Infrastructure/Best Practices<br/></span></a><a href="http://www.google.com.au/search?q=shader+permutations" target="_blank"><span style="FONT-FAMILY: Verdana">Shader Permutation</span></a><br/><a href="http://www.gamedev.net/community/forums/topic.asp?topic_id=530547" target="_blank"><span style="FONT-FAMILY: Verdana">Dynamic Shader Linkage vs Uber Shader</span></a></p>

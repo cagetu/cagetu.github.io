@@ -1,0 +1,7 @@
+---
+layout: post
+title: "PhysX for mobile"
+date: 2014-06-07 01:53:41 +0900
+---
+
+<div>혼자서 이런 저런 생각하다가 아직 게임을 재밌게 만드는데에는 한참 모자라고, 무엇을 할까 고민하다가! "캐릭터를 한번 멋드러지게 모바일에서 출력해보면 어떨까? 그렇다면 반응성이나 생동감 있는 형태로 넣으면 이쁜데"<span style="font-size: 9pt;">라는 생각이 들어서 지글본(Jiggle Bone) 같은 걸 넣어보고 싶다라는 생각에 </span><span style="font-size: 9pt;">문뜩 PhysX가 모바일에서 되나? 라고 해서 리서치해보게 되었습니다.</span></div><div><span style="font-size: 9pt;"><br/></span></div><div><a href="https://developer.nvidia.com/gameworksdownload#?tx=$gameworks,physx">nvidia download center</a>에 가보면 재밌는게 PhysX for Android는 있는데, PhysX for iOS는 없네요?! 구글을 열심히 뒤져 보니까, 이건 별도로 문의를 해봐야 한다는군요! 헐~</div><div><br/></div><div>물론 아직 리서치 단계니까 별로 상관이 없는데, 듣기에 모바일은 완전 공짜는 아니라고 하네요. 일정 이상의 수익이 발생하면 지불해야 하는 금액이 있나 봅니다. 참고해야 할 듯! <span style="font-size: 9pt;">이것도 사실 유니티 엔진을 사용하면 그냥 되는 건데, 굳이 이러고 있나라는 생각이 들기도 하네요. 그냥 자기 만족 같은거 같네요.. ㅎㅎㅎㅎㅎ;;;; 문득 유니티 엔진을 사용하게 되는 장점이 점점 커진다는 것과 이제는 유니티와 언리얼 엔진을 사용하지 않는 것이 더 이상한 거 아닌가라는 느낌을 받네요. ㅎ</span></div><div><span style="font-size: 9pt;"><br/></span></div><div><span style="font-size: 9pt;">Custom Engine에 통합하는 거라 엄청 시행착오가 있을 것 같은데, PhysX 사용도 많이 못해봤고 게임 Physics도 많이 해보지 않았으니 이번 기회에 겸사 겸사 공부해볼까 합니다. 개인적으로 모바일 환경에서도 물리가 적용된 게임은 참 매력적인 것 같아서요~. ㅎㅎ.</span></div><div><br/></div><div>(이건 미친 짓이야!!! 다른 분들은 그냥 게임 만드세요~ 미친 짓은 저 혼자 할게요!!! ㅎㅎ)</div>

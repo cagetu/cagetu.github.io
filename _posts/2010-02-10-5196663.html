@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Light Pre Pass(2)"
+date: 2010-02-10 18:41:37 +0900
+---
+
+<a href="http://cagetu.egloos.com/5194274" title="">Light Pre Pass</a>를 만들어 보고 있는 중!!!<div><br/></div><div>1. LightBuffer</div><div><img alt="" loading="lazy" src="/assets/images/posts/5196663/c0001532_4b727bd274df4.png"/></div><div>일단 Directional Light 1개에 대한 LightBuffer... 그냥 Paper에 소개 된 것과 똑같이 저장했음.</div><div>(LightColor = 255, 255, 0)</div><div><br/></div><div>2. Forward Rendering</div><div><img alt="" loading="lazy" src="/assets/images/posts/5196663/c0001532_4b727c71ce1e3.png"/></div><div>좀 어설프다. EarlyZ 같은 부가적인 것도 같이 넣긴 했으나, 결과가 맞는지는 나도 모름...</div><div><br/></div><div>하면서 느끼고 있는 것들...</div><div>1. 구현 사례가 생각보다 없다. (구글링 해도 잘 안나오더라... 특히, 소스 코드)</div><div>2. Deferred Shading을 해보지 않으면, 바로 Light Pre Pass를 넘어오기란 힘들 듯... (당연한거 아냐?!)</div><div>3. 당연한 이야기 이지만, 반복적으로 랜더링을 하기 때문에, 랜더링 루틴에 대한 최적화가 필요할 듯... </div><div>(예를 들면, RenderQueue를 어떻게 관리하고 재활용할 것인가?! 등등...)</div><div><br/></div><div>아직은 한참은 더 해봐야 할 듯... Point 라이트를 왕창 넣어봐야 효과를 알 수 있을 듯...</div><div><div>(Stencil을 이용한 최적화까지 합쳐서...)</div><div><br/></div><div>해봐야 할 것</div><div>- Lighting 모델 확인</div><div>- ShaderX7의 LUV Color 어쩌구를 봐야 함.. (책 협찬 좀.. ㅡㅡ;)</div><div>- 여러가지 Shader Material 적용</div><div>- Shadow 적용</div><div>- PostEffect 적용</div><div>- EarlyZ 확인</div><div><br/></div></div><img alt="" loading="lazy" src="/assets/images/posts/5196663/c0001532_4b727fce7f108.png"/>

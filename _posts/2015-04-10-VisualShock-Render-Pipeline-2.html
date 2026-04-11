@@ -1,7 +1,0 @@
----
-layout: post
-title: "[VisualShock] Render Pipeline - 2"
-date: 2015-04-10 01:52:59 +0900
----
-
-<a href="http://cagetu.egloos.com/5871988" title="">[VisualShock] Render Pipeline</a>에 이어서 데이터로 좀 깔끔하게 뽑아볼까를 고민을 좀 했다.<div><br/></div><div>먼저, json 형태로 간결하게 처리하려고 하였으나, 도저히 json 형태로는 여러가지로 제한이 많아서 xml로 다시 복귀!!! 그러면서, 좀 더 직관적으로 보기 편하게 처리하려고 세분화하고 태그도 좀 더 알 수 있는 형태로 변경해보니 나름 이해할 만한 수준이 된 듯 해서 일단 이 방향으로 진행해보기로 한다.</div><div><br/></div><div><div><img alt="" loading="lazy" src="/assets/images/posts/5873268/c0001532_5526abda98d5a.png"/></div></div><div><br/></div><div><div style="line-height: 15.6000003814697px;">이전에도 변수가 생겼던 것이 게임 옵션에서 무엇인가를 조정했을 때, 렌더 파이프라인이 특정 조건에 따라서 재조립되어야 한다는 점이었는다. 이런 경우에 특정 조건에 따라서 파이프라인이 어떻게 조립되어야 한다는 조건을 명시하거나, 셰이더가 달라져야 하거나 하는 처리를 어떻게 해야 할지가 아직도 고민이기는 한데, 이건 좀 더 고민을 해서 해결해야 할 것 같다.</div><div style="line-height: 15.6000003814697px;"><br/></div><div style="line-height: 15.6000003814697px;">가장 쉽게 생각해보면, 파이프라인이나 셰이더에 Tag를 걸어서 처리하는 형태가 있을 수 있을 것 같기도 하고.. 암튼... </div><div><br/></div><div>일단 데이터 형태가 어느 정도 잡혔으니, 엔진 코드를 구현해보자!! 훗...</div><div><br/></div><div>(사실 오늘은 이것을 하려고 했던 것이 아니라, FBX Loader를 붙이려고 했던 것인데, 하기가 싫어서 그만... 음냥... 칫!)</div><div><br/></div><div>렌더 파이프라인 참고자료</div><div><br/></div><div><a href="http://www.cocos2d-x.org/wiki/Cocos2d_v30_renderer_pipeline_roadmap" target="_blank">Cocos2D V30 Renderer Pipeline RoadMap</a></div><div><br></div><div style="line-height: 15.6000003814697px;"></div></div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Bilateral Filtering"
+date: 2011-11-27 02:21:29 +0900
+---
+
+<a href="http://cagetu.egloos.com/5274198" title="">Screen-Space SH Lighing upsampling</a>의 엮인 글로 적어봅니다...<div><img alt="" loading="lazy" src="/assets/images/posts/5576794/c0001532_4ed11eae2500e.jpg"/><div><div>[Bilateral Filtering]</div><div><img alt="" loading="lazy" src="/assets/images/posts/5576794/c0001532_4ed11edfc66b4.png"/></div><div>[Bilateral Filtering 수식]</div><div><br/></div><div>Bilateral Filtering은 여러가지 Post Processing에서 Bleeding Artifact를 제거할 목적으로 많이 사용됩니다. 의외로 구현은 간단하지만, 정확하게 알려지지가 않아서 정리해봅니다....</div><div><br/></div><div>일단, Gaussian Filtering와 Bilinear Filtering, Box Filtering에 대해서 정확하게 정리하고 봐야 할 듯합니다...</div><div><br/></div><div><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html">http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html</a></div><div><a href="http://www.shellandslate.com/fastmedian.html">http://www.shellandslate.com/fastmedian.html</a></div><div><div><br/></div><div>Joint Bilateral Upsampling이 가장 최근인 듯??</div></div></div></div><div><span style="color: rgb(0, 0, 238); font-family: Verdana; text-decoration: underline; "><a href="http://johanneskopf.de/publications/jbu/index.html" target="_blank">http://johanneskopf.de/publications/jbu/index.html</a></span></div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Physically Based Lighting"
+date: 2010-11-01 00:55:58 +0900
+---
+
+<div><img alt="" loading="lazy" src="/assets/images/posts/5381607/c0001532_4ccd9087af125.png"/></div><div><span class="Apple-style-span" style="font-family: 굴림; "><a href="http://cagetu.egloos.com/5374586" title="">HDR 관련 개발 자료</a>의 문서를 보고, Physically Based Lighting을 테스트 중입니다.</span></div><div><span class="Apple-style-span" style="font-family: 굴림; "><br/></span></div><div>문서를 보시면, 제가 이야기 하는 것보다 더 잘 이해하실 수 있을 정도로 소개가 잘 되어 있구요.</div><div>Paper 상에서 소개한 결과물들이 너무 좋아서, 테스트 중에 있습니다.</div><div><br/></div><div>결과가 좋게 나오기를 기대하며, 이번 주에는 이 녀석 가지고 좀 놀아봐야 겠나이다. ㅎㅎㅎㅎ</div><div>(다음 발표 주제(For KASA)이기도 합니다. ^^)</div>

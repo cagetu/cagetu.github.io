@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Linear Color Space"
+date: 2009-12-15 02:01:05 +0900
+---
+
+<span style="FONT-FAMILY: Verdana">게임에서의 색감이 라이팅만 가지고는 타 게임과 많이 다르고 뭔가 부족하다는 생각을 많이 하고 있어서, 후처리 ColorControl을 구현해 보고, 결과를 확인해보자!! 라고 생각하던 찰나~<br/><br/>Jufoot님의 </span><a href="http://jufoot.egloos.com/1960058" title=""><span style="FONT-FAMILY: Verdana">Rendering in Linear Color Space</span></a><span style="FONT-FAMILY: Verdana">의 내용을 보게 되어서, 구현해 본 것일 뿐입니다.<br/>소개가 잘 되어 있으니, 읽어보시면, 굳이 제가 설명하지 않아도 될 것입니다.<br/><br/>[non-linear]<br/><img alt="" loading="lazy" src="/assets/images/posts/5148378/c0001532_4b266b9671e42.png"/><br/>[linear]<br/><img alt="" loading="lazy" src="/assets/images/posts/5148378/c0001532_4b266fe5a81b2.png"/><br/>차이가 눈에 보이시나요?<br/><br/>jufoot님의 사이트에서 소개한 공식을 적용해도 되고, </span><a href="http://http.developer.nvidia.com/GPUGems3/gpugems3_ch24.html" target="_blank"><span style="FONT-FAMILY: Verdana">GPUGems3권 24절. The Importance of Being Linear</span></a><span style="FONT-FAMILY: Verdana">에 나온 방식을 적용해도 결과는 비슷하게 나옵니다. 해보니까, 속도차(5프레임)정도 있었는데, 이래 저래 다른 것도 영향이 있어서 그런 것 같이니, 별 차이는 없어보입니다.<br/><br/>GPUGems3 권에 Post-Processing을 처리할 때에는 최종 Step의 마지막 패스에서 FrameBuffer에 전송할 때, "linear-&gt;sRGB"로 변환하라고 나오니, 친절하게 설명해주는군요. ㅎㅎ<br/><br/>궁금해서, Unreal3를 열어보았는데(UDK), 유사한 코드가 적용되어있더군요. (unreal midtone의 비밀?! 음냥..?!)<br/><br/>jufoot님의 소개 덕분에, 재밌는 공부했습니다. 감솨.. (ㅡㅡ)(_ _)(^^)<br/><br/>이 참에, Color Control 관련한 내용을 정리해 봐야겠습니다.<br/>Cry문서에도 내용이 많은 내용이 언급되어 있네요.<br/><br/>(돈이 없어서 책을 못 사고 있었는데, GPUGems3권을 월급 받는데로 사야겠네요. 가난뱅이 개발자 인생.. ㅎㅎ)</span>

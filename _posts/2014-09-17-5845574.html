@@ -1,0 +1,7 @@
+---
+layout: post
+title: "D3DComplie"
+date: 2014-09-17 00:40:48 +0900
+---
+
+이전에 <a href="http://cagetu.egloos.com/5658236" title="">DirectX11에서 Effect(.fx) 사용하기</a>를 해봤을 때에는 그냥 구현해보자는 의미에서 깊이 있게 보지 않아서 왜 이렇게 되었는지 관심있게 보지 않고 그냥 넘어갔었는데, 이번에 진지하게(?) DirectX11을 사용해보자고 마음 먹고 Shader Complie 하는 부분을 보다가 보니까, 확실히 알 필요가 있어졌다.<div><br/></div><div>MSDN 블로그를 찾아봤더니, 다음과 같은 글이 써 있다.</div><div><br/></div><div>* <a href="http://blogs.msdn.com/b/chuckw/archive/2010/04/22/what-s-up-with-d3dcompiler-xx-dll.aspx" style="font-size: 9pt; line-height: 15.6000003814697px;" target="_blank">What's up with D3DCompiler_xx.DLL?</a></div><div><ul><li>새로운 컴파일러를 만들기 시작했다.</li><li>대부분의 HLSL 셰이더 프로파일을 지원한다.</li><li><span style="line-height: 15.6000003814697px;">사용자가 </span>실제로 런타임에서 필요한 DLL를 적용해야만 한다. </li><li>D3DX 유틸리티 라이브리러를 사용하지 않고, D3DComplier_xx.DLL을 직접 호출하도록 했다.</li><li>Window SDK를 통해서 D3DComplier_xx.DLL 버전을 얻을 수 있다.</li></ul></div>- <a href="http://blogs.msdn.com/b/chuckw/archive/2012/05/07/hlsl-fxc-and-d3dcompile.aspx" target="_blank">HLSL, FXC, and D3DCompile</a><div><ul><li>D3DComplie API는 거쳐가는 것이고, 최신 버전은 D3DComplieFromFile 이나 D3DComplie2 이다.</li><li>HLSL linker 기능도 Window 8.1 SDK에서는 포함되었다. (D3DComiler #47)</li><li>(그냥 읽어보시면 됩니다... 대충 이해는되는데, 정확하게 번역이 어렵네요. ㅠㅠ)</li></ul><div>아무튼 확실한 것은 좀 더 써보면서 알 수 있을 것 같고, Unreal Engine 같이 오픈 소스(?)가 있으니, 사용 사례도 참고하면서 만들어봐야겠다... </div></div><div><br/></div><div>이제 시작했는데, 볼게 너무 많다. ㅠㅠ</div><div><br/></div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "좌표계"
+date: 2011-06-09 12:48:33 +0900
+---
+
+예전에 잠깐 학원에서 강의를 할 때, 이게 그렇게 중요하다고 골 백번도 더 이야기 했는데, 정작 내가 기억을 못하고 있다. ㅡㅡ;;<div>생각난 김에 다시 정리~</div><div><br/></div><div><b>[Vector]</b></div><div><br/><div>D3D의 vector는 가로의 형태... 따라서, 곱셈 순서는, vector * matrix</div><div><b>[x, y, z, w] * M = [x', y', z', w']</b></div></div><div><br/></div><div>OpenGL의 vector는 세로의 형태... 따라서, 곱셈 순서는 matrix * vector</div><div><b>|x|            |x'|</b></div><div><b>|y| * M =  |y'|</b></div><div><b>|z|             |z'|</b></div><div><b>|w|           |w'|</b></div><div><b><br/></b></div><div><b>[Transform Pipeline]</b></div><div><br/></div><div>D3D의 파이프라인</div><div><img alt="" loading="lazy" src="/assets/images/posts/5500761/c0001532_4df04206cfd0c.gif"/></div><div><a href="http://msdn.microsoft.com/en-us/library/ee418867(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/ee418867(v=vs.85).aspx</a></div><div><a href="http://blog.daum.net/gamza-net/5">http://blog.daum.net/gamza-net/5</a></div><div><br/></div><div><br/></div><div>OpenGL의 파이프라인</div><div><img alt="" loading="lazy" src="/assets/images/posts/5500761/c0001532_4df04230258fb.png"/></div><div><a href="http://www.songho.ca/opengl/gl_transform.html">http://www.songho.ca/opengl/gl_transform.html</a></div><div><br/></div><div><br/></div><div><b>[왼손 좌표계 VS 오른손 좌표계]</b></div><div><br/></div><div>특별한 것은 없지만, 구현하려고 하면 복잡하니, MSDN이나 PowerVR 코드를 참고하자.</div><div>(공부도 할 겸 겸사 겸사, D3D Matrix 말고, 한번 정도는 만들어서 사용해보는 것을 권유합니다. ^^)</div>

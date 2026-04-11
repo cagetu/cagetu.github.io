@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Post-Process Effects In Design"
+date: 2009-02-02 12:37:12 +0900
+---
+
+<span style="FONT-FAMILY: Verdana">Post-Processing 작업을 해보신 분은 아시겠지만, Native(C++) 코드로 이 녀석을 구현한다면, 코드가 대략 길고, 복잡하고, 지저분해지게 된다(아마도... ).  사실 Post-Processing 작업이라는 것이<br/><ul><li>Scene -&gt; TextureA</li><li>TextureA -&gt; TextureB</li><li>TextureB -&gt; TextureA</li><li>TextureA -&gt; TextureB</li><li>...</li><li>TextureB -&gt;  Scene </li></ul><br/>이기 때문에, 사실 작업 자체의 복잡도가 높은 것은 아니다. 단, 반복된다는 것이 코드를 지저분하게 만들 뿐...<br/>코드를 Copy/Paste하기도 귀찮고, HDR과 DOF 등의 기능을 동시에 적용하면, 완전 걸레가 되어 버리고, 이렇게 하기 싫으면, Renderer에 일일이 기능(HDR Class, DOF Class... 등) 을 구현해야 하는데, 이건 의미가 없지 않은가... (개인적으로 shader 자체가 data라고 보기 때문에, shader의 기능에 영향을 받아서, Renderer가 일일이 대응하는 것은 바람직하지 않다고 본다.)<br/><br/>이 문제를 해결하기 위해 소개된 내용이 <u><strong>ShaderX5권에 소개 된 Post-Process Effects In Design</strong></u>이다. 내용도 어렵지 않고, 적용도 어렵지 않아서, 정말 딱인 것 같다.<br/><br/>특히, 여러 개의 Effect(HDR, DOF, ... )의 적용 순서나 활성화/비활성화를 설정하는데 더 탁월한 효과를 볼 수 있을 거 같다.<br/><br/>이 System을 구축해 놓으면, Shader와 PostProcessing 모두 코드의 수정없이, .fx file과 .xml 을 이용하여, Data-Driven하게 다양한 효과들을 구현할 수 있게 된다.<br/><br/>혹시 Shader-Editor와 같은 Graph-Editor를 가지고 있다면, PostProcess-Editor도 만들어 두는 것도 괜찮을 것이다.<br/><br/>cf. 더불어 Nebula3의 FrameShader라는 것이 이것과 유사하다.<br/>(내용을 보지는 않았지만, 장면을 구성하는 .xml 파일의 구조가 유사하다.)<br/><img alt="" loading="lazy" src="/assets/images/posts/4833341/c0001532_49866a582f527.jpg"/></span>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "2D Dynamic Lighting - Skullgirls"
+date: 2016-02-15 21:11:09 +0900
+---
+
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/XsK3AAxM_LU" width="560"></iframe><div><br/></div><div>나온지가 1년 정도 된 게임인 것 같은데, 2D 게임에서 라이팅을 눈에 띄게 잘 쓴 것 같아서 계속 연구 중! 도대체 노말을 어떻게 처리했을까? 가 너무 궁금해서 리소스를 좀 뜯어보고 싶어서 찾아보았더니 모드 개발을 위한 언패킹 툴이 있음</div><div><br/></div><div><a href="https://github.com/0xFAIL/SkullMod" target="_blank">https://github.com/0xFAIL/SkullMod</a></div><div><br/></div><div>dev.gfs를 열어보니까, 셰이더가 포함되어 있어서 어떻게 계산했는지 유추해볼 수 있었음... 되게 복잡한데, 코드를 읽어본 느낌(?)으로는 스크린 스페이스에서 디퓨즈 텍스쳐의 텍셀을 얻어와서 실시간으로 노말을 계산해서 사용하는 듯... (마치 DiffuseMap으로 노말맵 계산하는 것처럼...)</div><div><br/></div><div>추가적은 노말맵 없이 이쁘게 라이팅이 되는 이유가 여기에 있는 듯.... 따라해보고 싶은데, 수학적으로 공부를 다시하고 와야할 듯... 냠냠...;;;</div><div><br/></div><div>Skullgirls, Dust, Ori ... 2D 게임이지만 3D 효과를 적절하게 사용하면 얼마나 멋진지를 잘 보여주는 듯... 아~ 부럽~ 나도 연구 연구!!!</div>

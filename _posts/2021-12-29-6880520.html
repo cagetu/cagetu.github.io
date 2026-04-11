@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Bindless Graphics"
+date: 2021-12-29 11:45:42 +0900
+---
+
+<div><a href="https://www.nvidia.com/en-us/drivers/bindless-graphics/" target="_blank">https://www.nvidia.com/en-us/drivers/bindless-graphics/</a></div><a href="https://computergraphics.stackexchange.com/questions/10794/binding-vs-bindless" target="_blank">https://computergraphics.stackexchange.com/questions/10794/binding-vs-bindless</a><div><a href="https://jorenjoestar.github.io/post/vulkan_bindless_texture/" target="_blank">https://jorenjoestar.github.io/post/vulkan_bindless_texture/</a></div><div><a href="https://therealmjp.github.io/posts/bindless-texturing-for-deferred-rendering-and-decals/" target="_blank">https://therealmjp.github.io/posts/bindless-texturing-for-deferred-rendering-and-decals/</a></div><div><a href="https://www.reedbeta.com/blog/deferred-texturing/" target="_blank">https://www.reedbeta.com/blog/deferred-texturing/</a></div><div><br/></div>

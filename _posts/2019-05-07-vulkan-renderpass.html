@@ -1,7 +1,0 @@
----
-layout: post
-title: "vulkan renderpass"
-date: 2019-05-07 07:29:25 +0900
----
-
-<a href="http://cagetu.egloos.com/6278478" title="">크로스 플랫폼 엔진</a> 랑 맞는 내용은 아니지만, renderpass를 구성하다보니 결국 renderpipeline 을 어떻게 구성하는지에 대한 내용과 동일하게 적용되는 듯 하다. <a href="http://cagetu.egloos.com/5871988" target="_blank">이전에 만들어봤던 RenderPipeline 내용</a>하다고 사실 비슷하다.<div><br/></div><div><img alt="" loading="lazy" src="/assets/images/posts/6482491/c0001532_5cd0b2c8db13f.png"/></div><div>단, Vulkan에서는 RenderPass가 사실 하나의 Frame에 대한 전체 패스에 대한 정의하고 SubPass를 하나의 렌더 타겟을 기반하는 렌더 패스로 해야 RenderTarget 전환 비용이 줄어들어서 성능이 올라가는 듯 하다. </div><div><br/></div><div>한 패스의 구성은 대충 이런 듯 하다.</div><div><br/></div><div><span><div style="-en-clipboard:true;"><div><b>FrameBuffer</b></div><ul><li><b>CommandBuffer</b></li><li><b>RenderPass</b></li></ul><ul><ul><li><b>SubPass</b></li><ul><li><b>RenderTarget</b></li><ul><li><b>Channel</b></li><li><b>Channel</b></li><li><b>Channel</b></li></ul><li><b>Draw</b></li><ul><li><b>Record CommandBuffer</b></li></ul></ul></ul><ul><li><b>SubPass</b></li></ul><ul><li><b>RenderTarget</b></li><li><b>Draw</b></li><ul><li><b>NextSubPass</b></li><li><b>Record CommandBuffer</b></li></ul></ul><ul><li><b>SubPass</b></li><ul><li><b>RenderTarget</b></li><li><b>Draw</b></li><ul><li><b>NextSubPass</b></li></ul><ul><li><b>Record CommandBuffer</b></li></ul></ul></ul></ul><div><br/></div><div>SubPass 의존성, 타겟 이미지에 대한 Attachment 설정 및 순서 등... 생각할게 참 많다. 따라가보면 결국 Frame 구성을 어떻게 하느냐? 에 대한 문제가 된다.</div><div><br/></div><div>삼각형도 못 그렸는데, 생각할게 많아졌다. ;;;;</div></div></span></div>

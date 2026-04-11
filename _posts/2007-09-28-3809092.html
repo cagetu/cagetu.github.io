@@ -1,0 +1,7 @@
+---
+layout: post
+title: "[3D studio] Animation"
+date: 2007-09-28 02:02:31 +0900
+---
+
+2007년 9월 29, 30일에 보게될 내용<br/><a href="http://pds6.egloos.com/pds/200709/29/32//Animation.ppt" target="_blank">Animation.ppt</a><br/><br/>애니메이션에 대한 기초적인 정리를 해봤습니다.<br/><br/>퍼갈 때는 남기삼..<br/><br/>[참고자료]<br/>noerror님의 주옥같인 애니메이션 참고자료.. ㅎㅎ<br/><a href="http://pds6.egloos.com/pds/200709/29/32//Practical_Animation_Technique.pdf" target="_blank">Practical_Animation_Technique.pdf</a><br/><a href="http://www.gamecode.org/tt/entry/kasa" target="_blank" title="">출처</a><br/><a href="http://www.gamecode.org/tt/entry/2134" target="_blank" title="">추가 참고자료</a>

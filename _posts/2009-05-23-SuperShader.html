@@ -1,7 +1,0 @@
----
-layout: post
-title: "SuperShader"
-date: 2009-05-23 00:58:04 +0900
----
-
-<span style="FONT-FAMILY: Verdana">원래는 Material LOD를 어떻게 만들까 고민하면서, Shader와 Material을 살짝 수정해 보려고 하였는데, </span><a href="http://digibath.com/repository/kasa_ubershader.pdf" target="_blank" title=""><span style="FONT-FAMILY: Verdana">noerror님의 UberShader 소개와 구현</span></a><span style="FONT-FAMILY: Verdana">를 보고, 간단해 보여서, 작업해 보았습니다. 추가적으로 ShaderX4. 8.1. SuperShader 를 보시면, 친절하게 설명과 함께, 소스코드도 보실 수 있습니다.<br/><br/>제가 본 가장 큰 장점은 Compile해서 사용하는 방식이라서, 불필요한 ShaderVariable들을 읽지 않아도 된다는 것입니다. 저는 원하는 Technique를 선태해서 사용하는 방식으로 쉐이더를 사용했었는데, 이 방식은 shader(.fx)파일에 들어있는 변수들을 읽어들여야 한드는 부담이 있었는데 말이죠.<br/><br/>MaterialLOD는 이것과는 다르게, 의미 그대로, 거리나 이벤트에 따라 쉐이더를 바꿔치기 하는 것으로 볼 수 있는데, Technique을 바꿔도 되고, Shader를 새로 Compile해도 될 것 같습니다.(어차피 Caching되니까, 생각보다 많아지지는 않을 듯.)<br/><br/>LOD도 두 가지 한번 다 테스트 해봐야 겠네요.<br/><br/>작업을 해보면서 가장 큰 어려움은 기존 Shader(.fx)을 읽어서 바로 사용하는 로직과 UberShader 시스템을 동시에 사용할 수 있도록 하는 것이네요. (사실 이렇게 할 필요가 없습니다만, 테스트 해보려구요...)<br/><br/>Shader, Material을 어떻게 설계하느냐가 결국 제일 중요하면서도 어렵다는 것을 느끼고 있답니다. ㅡOㅡ;;</span>

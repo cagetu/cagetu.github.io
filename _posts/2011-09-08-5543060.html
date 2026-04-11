@@ -1,0 +1,7 @@
+---
+layout: post
+title: "측광"
+date: 2011-09-08 13:03:45 +0900
+---
+
+HDR 렌더링 파이프라인을 보면, 평균 루미넌스(Luminance)를 구하는 부분이 있다. <div>(평균 루미넌스는 왜 구할까? <a href="http://blog.naver.com/nkj2001?Redirect=Log&amp;logNo=20100500650">측광</a>에 대해서 읽어보면 이해가 되네~)</div><div><br/><div>이게 은근히 여러 패스를 걸치기도 해야 하고 엄청 짜증나고, 신뢰할 수 있는 결과를 얻는 것도 쉽지 않다. </div><div><br/></div><div>DX11의 경우에는 mipmap을 생성하는 방식으로 한방에 해결해 버린다.</div><div>(<a href="http://mynameismjp.wordpress.com/2011/08/10/average-luminance-compute-shader/" target="_blank">http://mynameismjp.wordpress.com/2011/08/10/average-luminance-compute-shader/</a>)</div><div><br/></div><div>루미넌스맵을 만들어서, 밉맵을 만들어주세요~ 라고 요청하고(Device에서 제공), mipmap chain의 마지막 텍스쳐를 사용하기만 하면 끝! 완전 좋네.... 덴장... </div><div><br/></div><div>게임에서는 이 기능을 사용하는 것을 거의 본 적이 없는 것 같다... 사용하는 입장에서 더 고민을...</div><div>(디지털 카메라에서는 너무나 일반적인 기능인 듯... 심지어 아이폰에서도 되니...)</div><div><br/></div><div>역시 이것 저것 포스트프로세싱 작업을 하면서 느끼는데, 사진에 대해서 공부를 좀 해두면 많은 도움이 될 것 같다능...</div></div><div><br/></div>

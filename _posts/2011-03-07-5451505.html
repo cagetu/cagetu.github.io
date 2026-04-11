@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Next Generation"
+date: 2011-03-07 08:19:29 +0900
+---
+
+<div></div><div><iframe allowfullscreen="" frameborder="0" height="510" src="http://www.youtube.com/embed/n3XeCHywNYM?hd=1" title="YouTube video player" width="853"></iframe></div>GDC11 에서 소개된 <a href="http://uk.kotaku.com/5774861/epic-says-this-is-what-next+gen-should-look-like/gallery/?skyline=true&amp;s=i">Unreal3 차세대 기술 Feature들</a>입니다. 위에는 그 동영상이고요.<div><br/></div><div><iframe allowfullscreen="" frameborder="0" height="510" src="http://www.youtube.com/embed/OgrrrzJS89s?hd=1" title="YouTube video player" width="853"></iframe></div><div>이 동영상은 GDC11에서 소개된 CryEngine3 Tech Showcase입니다.</div><div><br/></div><div>Crytek의 Crysis2, DICE의 배틀필드 3, Confetti Effects Inc.를 보면, 차세대 게임 엔진의 그래픽 동향을 알 수가 있습니다.</div><div><br/></div><div>한 마디로는 정말 "Real"이겠죠.</div><div><br/></div><div><div>Deferred Shading을 이용한 더 많은 동적 라이팅과 Shadowing.</div></div><div>실시간 GI의 진화 (LPV, Enlighten, ... </div><div>다양한 사실적인 효과들(Bokeh, ...</div><div><br/></div><div>이들은 DirectX 11의 장점들과 조합되면서 가능해지는 부분도 있는거 같습니다. </div><div><br/></div><div>트위터를 통해서 GDC를 보았는데, 이제는 점점 더 이렇게 AAA급 초 고퀄리티 게임을 만드는 개발사들이 줄어들 것 같아요.</div><div>물론 상위 1%의 게임엔진을 사용하면 되겠죠.. ㅎ</div><div><br/></div><div>아무튼 근래의 그래픽 기술 동향을 보고, 동영상을 통해서 그 결과들이 보니, 흥분이 가시지를 않는군요. 엄청 설레입니다.</div><div>저도 빨리 저런 기술들을 흡수해서, 만들어 보고 싶은 생각 뿐입니다.</div><div><br/></div><div>따라가기도 벅차지만, 쉬지 않고 발전하는 기술들이 항상 할 것을 만들어주니까, 항상 긴장되고 재밌네요. ㅎㅎ</div><div><br/></div><div>세상이 변해도 새로운 게임 그래픽을 보고 열광하는 것은 변하지 않는 모냥입니다. ^^</div>

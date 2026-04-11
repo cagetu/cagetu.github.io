@@ -1,0 +1,7 @@
+---
+layout: post
+title: "UnderStand...."
+date: 2006-05-19 11:36:42 +0900
+---
+
+조직의 리더가 ‘밑(Under)에 서야(Stand) 진정으로 그 사람을 이해 (Understand) 할 수 있다’는 'Understand'의 정신을 솔선해서 꾸준히 실천해 나간다면, 수평적 조직문화 건설이 불가능하지는 않을 것입니다.

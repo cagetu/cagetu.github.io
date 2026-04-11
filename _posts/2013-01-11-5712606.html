@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Skinned Mesh 분할"
+date: 2013-01-11 18:46:18 +0900
+---
+
+<div>하드웨어 스키닝을 사용하다보면, 셰이더 상수 제한에 걸려서 셰이더에 넘길 수 있는 본의 개수가 제한되기 때문에, 이를 해결해야 하는데, 가장 많이 사용하는 방법이 바로 메쉬를 분할 하는 방법이다. 시간이 흘러서 사용 가능한 셰이더 상수가 많아졌지만, 그에 따라서 기능들도 늘어났기 때문에, 여전히 스킨 메쉬를 분리하는 방법은 유용하다. (Shader Model 5.0은 무제한으로 사용이 가능하다죠?! 헐~)</div><div><br/></div><div>물론, Vertex Texture Fetch를 사용해서, Skinned Instancing을 이용하면 이 문제를 해결할 수 있기도 하다.</div><div><br/></div><div>예전에 그러니까 셰이더 1.1 ~ 2.0 시절에 한번 작업해봤는데, 그 때에는 그냥 버텍스 리스트를 돌면서, 버텍스에 Attach된 본을 누적시켜서 제한 개수까지 차면, 분리하는 식으로 만들었었다. 아무래도, 본 개수나 버텍스가 한 쪽으로 몰리게 되는데, 그 때에는 그냥 되네~ 그냥 훅~ 넘어갔었지~</div><div><br/></div><div>그 때보다 좀 잘 만들고 싶어져서, "시간이 많이 흘렀으니, 좋은 방법들이 많이 나와 있겠지?" 라는 생각으로 검색을 열심히 해보았지만, 관련된 자료가 거의 없구나!!! 헐퀴~</div><div><br/></div><div>그 중에서 제일 잘 소개가 된 것이 바로 이 아티클이다.</div><div><img alt="" loading="lazy" src="/assets/images/posts/5712606/c0001532_50efd6141843a.jpg"/></div><div>원본 : <a href="http://www.gamasutra.com/view/feature/1566/skinned_mesh_export_optimization.php">http://www.gamasutra.com/view/feature/1566/skinned_mesh_export_optimization.php</a></div><div>번역된 문서 : <a href="http://www.kocca.kr/knowledge/abroad/indu/1288975_4396.html" target="_blank">http://www.kocca.kr/knowledge/abroad/indu/1288975_4396.html</a></div><div><br/></div><div><div>핵심은 상수 레지스터에 부담을 줄일 수 있도록 균형있게 분할하느냐? 인데, 즉 메쉬에 Attach된 본이 80개라면, 60/20으로 분할하는 것보다는 가능하면 40/40으로 분할해보자는 것이다.</div></div><div><br/></div><div><div>알고리즘도 간단하고, 구현이 어렵지도 않아서, 테스트해보고 있는 중인데, 결과도 나쁘지 않은 듯 하다.</div><div><br/></div><div>(요즘에는 참 관심없을만한 내용입니다요~ ㅎㅎ;;;)</div></div>

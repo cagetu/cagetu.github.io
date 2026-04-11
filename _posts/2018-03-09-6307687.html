@@ -1,0 +1,7 @@
+---
+layout: post
+title: "이번에는 Map이닷!!!"
+date: 2018-03-09 11:57:56 +0900
+---
+
+<div><a href="http://cagetu.egloos.com/6300844" style="font-size: 9pt;" target="_blank">Custom Array</a><span style="font-size: 9pt;">에 이어서, Custom Map도 만들어보고 있다. 일반적으로 오픈소스 게임엔진(Oryol, Nebula3, UE4) 등을 참고하고 있다.</span></div><div>이 엔진들은 <span style="font-size: 9pt;">tree 형태가 아니라 </span>custum<span style="font-size: 9pt;"> array를 기반으로 구현되고, insert할 때 lower_bound 로 key를 찾아보고, find할 때, binary_search로 찾는 방식으로 되어 있다. </span></div><div><br/></div><div>Unordered_map, map, hashmap 이 3가지 형태의 컨테이너를 만들어보는 것이 목표이다. 추가적으로 EASTL이랑 FBMap 등도 같이 참고해보자!!!</div><div><br/></div><div>* <a href="http://aras-p.info/blog/2015/12/11/careful-with-that-stl-map-insert-eugene/" target="_blank">http://aras-p.info/blog/2015/12/11/careful-with-that-stl-map-insert-eugene/</a><div>: std map에 insert할 때 주의해야 할 점....</div><div><span style="font-size: 9pt;">1) 항상 메모리 할당이 일어난다!!!</span></div><div>2) insert가 필요할 때에만 할당하도록 한다.</div><div>: 먼저 찾아보고, 없을 경우에만 insert하도록... </div><div>3) iterator를 가지고 lower_bound + insert 하는 Trick은 매우 유용하다.</div></div><div><br/></div><div><br/></div>

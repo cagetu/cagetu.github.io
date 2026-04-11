@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Art Direction is Not Just Googling Images"
+date: 2020-03-06 11:40:51 +0900
+---
+
+<div>게임의 아트 디렉션은 어떻게 하는 걸까? 에 대해 관심이 많다. (프로그래머 주제에 ;;;) 그래서 생각나는데로 보고 정리해보려고 한다.</div><div><br/></div><div><a href="https://www.gdcvault.com/play/1020339/Art-Direction-is-Not-Just">https://www.gdcvault.com/play/1020339/Art-Direction-is-Not-Just</a></div><div><ul><li>Allegory</li><li>Alliteration</li><li>Iconography</li></ul><div>Iconography가 좀 관심이 가는데, 미술에서 사용하는 내용(<a href="https://www.youtube.com/watch?v=Rv2_UcSA8bY" style="font-size: 9pt;">https://www.youtube.com/watch?v=Rv2_UcSA8bY</a>)을 참고해보니 그림에서 상징되는 이야기를 보여주는 (Icon) 것으로 이해할 수 있을 것 같다. 이건 색상, 스타일 등등 여러가지 방법으로 표현을 할 수 있다. </div><div><br/></div><div>위의 내용들은 생각해보면 게임에서 많이 사용되는데, 관심을 가지면서 조금씩 이야기를 파악해보면 재밌을 것 같다.</div></div><div><br/></div>

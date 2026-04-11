@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Tangent 공간 변환 행렬이 뭐가 문제인 것이냐?!?! ㅡㅡ;;"
+date: 2009-09-23 15:51:19 +0900
+---
+
+<span style="FONT-FAMILY: Verdana"><img alt="" loading="lazy" src="/assets/images/posts/5078166/c0001532_4ab9c40137a42.jpg"/>노말맵을 적용하지 않으면, 위와 같이 깔끔하게 반사 매핑이 적용되는데, <br/>(반사 벡터 = reflect(normal, eyeVec); )<br/><br/><img alt="" loading="lazy" src="/assets/images/posts/5078166/c0001532_4ab9c437c4f50.jpg"/>노말맵을 사용하면, 이와 같이 얼룩 덜룩이 되버린다. 공식에서 본 것과 같이, normal 값은 normal map에서 추출하니까 문제가 없을 것이고, 탄젠트 공간으로 변화된 eyeVec가 문제라는 이야기인데...<br/>(무려 6개월이나 이게 잘 작동하고 있었다고 알고 있었다뉘.. 흑 흑.. ㅠㅠ)<br/><br/>왜 이렇게 나올까?! ㅡㅡ;;<br/></span><a href="http://www.terathon.com/code/tangent.html"><span style="FONT-FAMILY: Verdana">http://www.terathon.com/code/tangent.html</span></a><span style="FONT-FAMILY: Verdana"> 에 나와 있는 공식대로, 맥스 익스포터에서 tangnent 벡터를 넣어주는데 말이지.. <br/><br/>1주일 째 삽질 중..... 아~~~ 짬뽕나... ㅠㅠ;<br/><br/></span>

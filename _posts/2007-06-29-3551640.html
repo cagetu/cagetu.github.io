@@ -1,0 +1,7 @@
+---
+layout: post
+title: "모니터 비트레이트 16 vs 32"
+date: 2007-06-29 12:36:25 +0900
+---
+
+<p>window / full screen 모드를 모두 지원하면서, 16/32 비트 때문에, 오류를 발생하는 경우가 종종 생긴다.<br/><br/>특히 d3d api 함수를 가져다 쓸 때.... Device 옵션을 기가 막히게 설정하면 된다고 알고 있는데, 클베 하면서 아침 7시에 그걸 맞추고 있는 것은 미친 짓인거 같고 해서 선택한 방법은...<br/><br/>강제로 32비트 세팅하기...<br/>이전에 퀘이크 같은 게임들은 강제로 게임에 최적의 세팅을 하는 것으로 알고 있다.<br/>( 해상도, 비트, 주사율 등등..)<br/><br/>게임 시작할 때, (강제 세팅)<br/>  DEVMODE dv;<br/>  dv.dmBitsPerPel = 32;<br/>  if(ChangeDisplaySettings(&amp;dv, 0) == DISP_CHANGE_FAILED)<br/>    // 에러 처리..<br/><br/>게임 끝날 때, (돌려 놓기)<br/>    ChangeDisplaySettings(NULL,0);<br/><br/>강제 종료되면 다시 돌려놓을 방법은 없지만.. -_-;;<br/><br/>무식한 방법인 것은 아닌데, 일단 급하니까.. 고고~<br/><br/>[뽀너~스]<br/>이런 기사도 올라왔군요..ㅎㅎ<br/><a href="http://www.mud4u.com/gamejournal/journalview.php?seq=1899&amp;p=1&amp;category=93&amp;Key=&amp;KeyWord" target="_blank" title="">신화 속의 그녀들을 만난다 - 제로스 온라인 <br/></a></p>

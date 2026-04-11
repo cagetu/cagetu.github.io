@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Non-Photorealistic Rendering"
+date: 2008-03-07 18:24:19 +0900
+---
+
+<a href="http://www.cs.utah.edu/npr/" target="_blank" title="">NPR 심포지엄</a><br/><a href="http://portal.acm.org/toc.cfm?id=SERIES963&amp;type=series&amp;coll=GUIDE&amp;dl=GUIDE&amp;CFID=58756043&amp;CFTOKEN=85055644" target="_blank" title="">Archive</a><br/><br/><a href="http://www.cs.princeton.edu/gfx/pubs/Rusinkiewicz_2006_ESF/index.php" target="_blank" title="">Exaggerated Shading for Depicting Shape and Detail</a><br/><a href="http://portal.acm.org/citation.cfm?id=1124749" target="_blank" title="">X-Toon : Barla 2006</a><br/>Team Fortress2 Shading을 연구하다 보니까, NPR 쪽에 자료가 필요해서, NPR 관련 자료들을 수집 중..

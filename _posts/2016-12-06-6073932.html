@@ -1,0 +1,7 @@
+---
+layout: post
+title: "[Vulkan일지] Buffer 생성 공부 중"
+date: 2016-12-06 01:18:31 +0900
+---
+
+간단하게 Begin ~ End 로 Command Buffer를 여는 방법을 익힌 후, 실제로 무엇인가를 그려보기 위해 학습 중.<span style="font-size: 9pt;"> </span><span style="font-size: 9pt;">삼각형을 그리기 위해서는 Vertex, Index Buffer를 생성하는 방법을 알아야 하고, 생성한 버퍼를 출력하기 위한 Shader가 필요하다.</span><div><span style="font-size: 9pt;"><br/></span></div><div><span style="font-size: 9pt;">VertexBuffer, indexBuffer와 함께 Staging Buffer라는 개념이 있는데, 버퍼 메모리를 CPU, GPU 상에 어디에 올려 놓는가?에 대한 부분이다. </span><span style="font-size: 9pt;">GPU 상에 최적으로 메모리를 올리기 위해서는 Staging Buffer에 버퍼 정보를 기록하고, Staging Buffer -&gt; Device Buffer로 Copy하여 사용하도록 해야 한다는 것이다.</span></div><div><span style="font-size: 9pt;"><br/></span></div><div>자세한 내용은 조금 더 진행하면서 더 정리가 되면 한번 더 소개해보기로 하면 좋을 것 같다.</div><div><br/></div><div>얼마전 우리나라에서 Vulkan 관련한 컨퍼런스가 있었는데, 한국 강사가 Vulkan에 대해서 발표한 엄청 좋은 내용이 유투브에 올라와 있으니 그걸 보는 것이 빠를 듯..</div><div><br/></div><div><a href="https://www.youtube.com/watch?v=QkURumKWBdA&amp;t=4799s">Vulkan Tutorial Samsung</a></div><div><a href="https://www.youtube.com/watch?v=4xz-XNFupTI">Vulkan Case Study</a></div><div><br/></div><div>지금부터 할 일 --- 이 정도면 단색 삼각형 그릴 듯</div><div>1. VertexBuffer 구현</div><div>2. IndexBuffer 구현</div><div>3. Buffer 관리 구현 (Staging Buffer, Device Buffer)</div><div>4. Command Buffer 정비</div><div>5. Device Memory 처리 공부</div><div>6. SPIR-V 공부</div><div>7. Vertex Layout 처리</div><div>8. 좌표계 처리</div><div><br/></div><div>아~ 많다.. ㅠㅠ</div><div><br/></div><div><br/></div>

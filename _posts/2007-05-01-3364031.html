@@ -1,0 +1,7 @@
+---
+layout: post
+title: ": fatal error C1076: compiler limit : internal heap limit reached; use /Zm to specify a higher limit"
+date: 2007-05-01 15:18:09 +0900
+---
+
+미리 컴파일 된 헤더를 사용할 경우<br/>: fatal error C1076: compiler limit : internal heap limit reached; use /Zm to specify a higher limit<br/><br/>라는 에러가 난다면..<br/>debug project마다 /Zm500 이라는 옵션을 추가해 주자..<br/><table cellspacing="0" class="dtTABLE"><tbody><tr valign="top"><th width="28%"><i>number</i></th><th width="72%">메모리 할당</th></tr><tr valign="top"><td width="28%">10</td><td width="72%">5.0MB</td></tr><tr valign="top"><td width="28%">100</td><td width="72%">50MB</td></tr><tr valign="top"><td width="28%">200</td><td width="72%">100MB</td></tr><tr valign="top"><td width="28%">1000</td><td width="72%">500MB</td></tr><tr valign="top"><td width="28%">2000</td><td width="72%">1000MB</td></tr></tbody></table>값의 의미를 대략 이렇다..<br/><br/>: fatal error C1001 : compiler error : msc1.cpp, line: 2708<br/>이라는 에러가 나오는데, 원인은 알 수 없지만, pch에 관련된 에러인 듯..<br/>설정을 이리 저리 바꾸고, /Zm을 설정해주니 해결은 했지만, 정확한 원인을 모르겠음..<br/>

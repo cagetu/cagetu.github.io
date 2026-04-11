@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Resolve"
+date: 2016-07-16 00:03:07 +0900
+---
+
+렌더 타겟 관련한 작업을 하다가 보면 Resolve 라는 단어를 보게 된다. 영어사전을 찾아보면 "변환하다. 바뀌게 하다. 분해하다" 라고 나온다. Resolve RenderTarget 이라는 용어를 봤을 때, 렌더타겟을 변경해? 분해해? 뭔가 확 이해가 되지 않았다. 그냥 코드로 봤을 때, 렌더타겟을 복사한다는 의미 같아 보여서 의미적으로 그런건가 보다 라는 느낌으로 지금까지 흘러왔다.<div><br/></div><div>UE4 코드를 보다가 CopyToResoveRenderTarget 이라는 함수를 만나게 되었고, 또 다시 헷갈리기 시작했다. 트위터에 질문을 올렸더니, 좋은 대답들을 해주셨다.</div><div><br/></div><div><img alt="" loading="lazy" src="/assets/images/posts/6025132/c0001532_5788f9167eb51.png"/></div><div><br/></div><div>이제 이해가 되기 시작한다. 사전적인 의미로 보자면 "바꾼다. 변환한다"라는 의미가 맞다. </div><div><br/></div><div>가장 간단한 형태로는 렌더타겟을 텍스쳐 형태로 변환한다고 보면 된다. 하지만, 위에서 설명해주신 것처럼 변환하면서 특정 처리가 동반되는 경우도 있다. (멀티샘플 렌더타겟 예제가 제일 많던데 아직 보지 못했네요. ;;;)</div><div><span style="font-size: 9pt; line-height: 15.6px;"><br/></span></div><div><a href="http://www.gamasutra.com/view/feature/3591/resolve_your_resolves.php?print=1">Resolve Your Resolves</a> 라는 글이 제일 눈에 띄어서 링크를 걸어본다. (저도 틈틈히 보려고요)</div><div><br/></div><div><br/></div><div>오랜만에 렌더링 관련 내용을 보게 되니 신나기도 하고 리마인드해야 할 것들도 많고, 바쁘다.. 하악~ </div><div><br/></div>

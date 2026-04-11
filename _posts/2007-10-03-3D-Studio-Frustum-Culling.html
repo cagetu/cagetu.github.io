@@ -1,7 +1,0 @@
----
-layout: post
-title: "[3D Studio] Frustum Culling"
-date: 2007-10-03 22:55:58 +0900
----
-
-<a href="http://pds6.egloos.com/pds/200710/06/32//FrustumCuilling.zip" target="_blank">FrustumCuilling.zip</a><br/><br/>가장 기초적인 장면 관리 기법은 절두체 컬링에 대해 알아보겠음.<br/>- 관련 지식 (평면의 방정식)<br/><br/>무단 퍼감 즐~ 댓글 남기삼..<a href="http://www.flipcode.com/articles/article_frustumculling.shtml" target="_blank" title="">참고자료</a><br/><br/>aabb의 각 8개의 vertex를 평면의 앞에 있는지 뒤에 있는지( Frustum 안에 있는지 )를 검출합니다.<br/><br/>// aabb와 frustum 컬링<br/>bool CFrustum::IsCulled( const CAABB&amp; aabb )<br/>{<br/>int nTotalIn = 0;<br/><br/>const D3DXVECTOR3* corners = aabb.GetCorners();<br/>for (int p=0; p &lt; FRUSTUM_PLANE_COUNT; ++p)<br/>{<br/>int nInCount = 8;<br/>int nPointIn = 1;<br/>for (int i=0; i &lt; 8; ++i)<br/>{<br/>if (m_aPlane[p].GetSide( corners[i] ) == CPlane::NEGATIVE_SIDE)<br/>{<br/>nPointIn = 0;<br/>--nInCount;<br/>}<br/>}<br/>if (nInCount == 0)<br/>return true;<br/><br/>nTotalIn += nInCount;<br/>}<br/><br/>// inside<br/>if (nTotalIn == FRUSTUM_PLANE_COUNT)<br/>return false;<br/>return false;<br/>}

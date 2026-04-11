@@ -1,0 +1,7 @@
+---
+layout: post
+title: "EarlyZ 작업 시 주의 사항"
+date: 2009-11-18 10:10:21 +0900
+---
+
+<a href="http://cagetu.egloos.com/5112955" title=""><span style="FONT-FAMILY: Verdana">Early Z</span></a><span style="FONT-FAMILY: Verdana">이 무엇인지는 다들 아실테고?<br/><br/>작업을 하다 보니, 이런 문제가?<br/><img alt="" loading="lazy" src="/assets/images/posts/5125651/c0001532_4b034768cdf24.png"/><br/>처음에는 단순하게 Z-Fighting 문제인지 알고, 일반적인 해결책인 near값도 수정해보고, 이런 저런 수정을 해보았는데, 실패!!!<br/>원인이 무엇일까 고민하다. noerror님에게 자문을 구한 결과,<br/></span><ol><li><span style="FONT-FAMILY: Verdana">DepthBias 값 체크</span></li><li><span style="FONT-FAMILY: Verdana">tm값이 Depth 랜더링 시와 Color 랜더링 시가 동일해야 함.<br/></span></li></ol><span style="FONT-FAMILY: Verdana">이라는 답변을 얻음. <br/><br/>2번은 당연하다고 생각했는데, 생각해보니까, 같은 값을 메모리에 담고 있다가 사용하는 것이 아니라, 그 때 그때, 메쉬의 "world * 카메라 view * 카메라 projection"을 곱해서 사용하고 있는 것을 발견!!!<br/>결국, 아주 미세한 값의 차이가 있었기 때문에, 위의 결과가 발생했음... noerror님 감솨!!!<br/><br/>당연한게 당연한게 아닐 때가 있기도 하구나!! 라는 것을 또 한번 깨닭는 좋은 기회!!<br/><br/>이 참에 사용되는 변환행렬에 대한 관리자도 만들어 놓아야 할 듯!!!<br/><br/><img alt="" loading="lazy" src="/assets/images/posts/5125651/c0001532_4b034964b4889.png"/><br/>AlphaTest, AlphaBlending도 다시 확인해봐야 겠다...</span>

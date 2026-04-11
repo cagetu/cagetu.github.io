@@ -1,0 +1,7 @@
+---
+layout: post
+title: "[Vulkan 일지] Vulkan Shader Cont'"
+date: 2017-02-10 02:24:35 +0900
+---
+
+<div>1. Shade에 버텍스 정보 연결</div><div><br/></div><div>Shader에서 Vertex 정보를 얻어와서 C++에서 버텍스 구조체 정보와 버텍스 버퍼를 연결해줘야 한다. DirectX에서 사용하는 용어로 보면 VertexDeclaration과 VertexBuffer를 설정해줘야 하는 것이다.</div><div><br/></div><div>VertexDeclaration</div><div>   |- VertexElemenent (Position, Bind VertexBuffer = 0)</div><div>   |- VertexElemenent (Texcoord, Bind VertexBuffer = 0)</div><div>   |- VertexElemenent (Color, Bind VertexBuffer = 1)</div><div><br/></div><div>구조적으로 보면 위에 처럼 여러 개의 버텍스 버퍼가 연결되고, 각 버텍스 버퍼에 어떻게 버텍스들이 구성되어 있는지를 선언해주는 것이다. 이렇게 셰이더 - 메쉬 정보 (버텍스 버퍼)와 연결하도록 만들어주면 되는데, VertexDeclaration 작성하는데 생각을 많이 했다. 아직은 정리를 더 해야 하는데, 진행하면서 정리하도록 해보자!</div><div><br/></div><div>2. Shader 변수 정보 연결</div><div><br/></div><div>Uniform 버퍼를 연결해야 하기 때문에, UniformBuffer 클래스를 만들어줘야 하고, UniformBuffer를 셰이더의 정보와 연결하기 위해서는 DescriptorSet이라는 Vulkan 구조체를 만들어서 연결해 줘야 한다. 아직 진행 중인데, 개념적으로 이해가 조금 더 필요할 것 같다.</div><div><br/></div><div>당분간 이렇게 셰이더 연결하는 작업을 계속 할 듯... 아~ 할 게 많다... 지금 엔진 만드는 것도 아니고, 그냥 렌더 디바이스 모듈인데도.. 젠장.. ㅎㅎㅎㅎ.. 그래도 재미는 있디~</div>

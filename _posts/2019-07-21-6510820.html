@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Custom Containers (2)"
+date: 2019-07-21 21:14:52 +0900
+---
+
+<a href="http://cagetu.egloos.com/6430945" title="">custom containers</a>를 만들어보고 싶어서, 이런 저런 공부하면서 Array, Map 등을 만들어서 사용해서 취미 프로젝트를 진행 중이다. 하지만 생각보다 정말 견고하게 잘 만드는 것이 쉽지가 않고 내용이 많아서 이걸 계속 유지할 수 있을까? 혹은 만약 이걸로 뭔가 의미있는 작업물을 만든다면 과연 쓸만한가? 라는 질문을 계속 스스로 하게 된다. <span style="font-size: 9pt;">특히 템플릿 프로그래밍을 잘 못하는 입장에서 약간 고도화된 컨테이너 클래스를 만드는 것이 버겁게 느껴졌다.</span><div><br/></div><div><div>특히 rust에 관심이 있어서 조금 보다가, 그럼 rust에서도 container를 만들어 쓰게 될까? 라고 생각해보니, 그건 또 아닐 것 같아서, 그럼 굳이 C++에서도 만들 필요가 있을까? 라는 생각이 문득 들게 되었다.</div><div><br/></div></div><div>솔직히 상업적(?) 결과물을 만든다면 그냥 EASTL을 쓰는 것이 맞지 않나? 라는 생각을 꾸준히 가지고 있기도 하다. 그래서 고민하다가 일단 프로젝트에 EASTL을 붙여서 병행하기로 했다. 코드 크기는 조금 커지겠지만, 현재 입장에서는 내가 만든 컨테이너 클래스가 안정성이 너무 부족해서 같이 써보면서 유지보수도 하고 테스트도 해보고, 좋거나 필요한 부분은 만들어서 써보기로 할 생각이다. </div><div><br/></div><div>아~ 아직 기초도 한참 멀었구나;;;</div><div><br/></div><div>EABase</div><div>EAAssert</div><div><span style="font-family: Verdana;">EASTL</span></div><div>EAStdC</div><div>EAThread</div><div><br/></div><div>모두 추가해보았다. </div><div><br/></div><div><a href="https://github.com/electronicarts" target="_blank">https://github.com/electronicarts</a></div><div><a href="https://jacking75.github.io/Cpp_EASTL/">https://jacking75.github.io/Cpp_EASTL/</a></div><div>(빌드 후, operator new[]를 정의하지 않으면 컴파일 오류가 나니 주의)</div><div><br/></div><div><br/></div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Shadow... Shadow... Shadow"
+date: 2010-01-06 14:20:39 +0900
+---
+
+<p><span style="FONT-FAMILY: Verdana">개인적으로 이유는 모르겠는데, 작업을 하면, 항상 의외로 까다롭게 느껴지는게 바로 그림자!!!<br/><br/>그림자맵을 기준으로 그림자 처리를 하고 있고, 이전에 <br/></span></p><ul><li><span style="FONT-FAMILY: Verdana">Standard Shadow Map</span></li><li><span style="FONT-FAMILY: Verdana">Perspective Shadow Map</span></li><li><span style="FONT-FAMILY: Verdana">Light Space Perspective Shadow Map</span></li><li><span style="FONT-FAMILY: Verdana">Trapezoid Space Shadow Map<br/></span></li></ul><p><span style="FONT-FAMILY: Verdana"><img alt="" loading="lazy" src="/assets/images/posts/5167314/c0001532_4b4446acefc62.png"/><br/>[512x512 TSM 적용된 모습]<br/><br/>까지는 정리를 해두었는데, 이제 새롭게 그림자 맵에 대한 정리가 필요!!!<br/><br/>PCF 필터를 이용한 Soft Shadow 기법부터 다시 차근 차근 정리해볼 차례.<br/><br/>Uncharted2, C9에서는 Cascade Shadow Map을 사용했다고 알려져 있지요...<br/>점차 Parallel Split Shadow Map을 사용할 것 같기도 한데, 모르겠네요.<br/><br/></span><a href="http://www.punkuser.net/vsm/" target="_blank"><span style="FONT-FAMILY: Verdana">VSM</span></a><span style="FONT-FAMILY: Verdana">을 가장 많이 활용하는 것 같으니, 이것부터 확인해봐야 겠어요...<br/></span></p>

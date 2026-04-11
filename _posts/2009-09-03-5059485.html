@@ -1,0 +1,7 @@
+---
+layout: post
+title: "SSAO"
+date: 2009-09-03 01:14:54 +0900
+---
+
+<span style="FONT-FAMILY: Verdana"><img alt="" loading="lazy" src="/assets/images/posts/5059485/c0001532_4a9e98b7ce5c2.jpg"/></span><a href="http://cagetu.egloos.com/5040822" title=""><span style="FONT-FAMILY: Verdana">Screen-Space Ambient Occlusion 작업 중...</span></a><br/><span style="FONT-FAMILY: Verdana">참고자료를 보고 따라서 만들어 보았습니다. 뭐, 거의 보고 한 것이지만, 공부차원에서 한 것이니깐...<br/>(사실 정상적으로 나온것 같지도 않습니다만... 기냥 패스~~)<br/><br/>최적화를 위해서는 ShaderX7권에서도 소개된 것처럼 downscaled depth texture를 이용하여, 작은 해상도의 텍스쳐에 ssao를 작업하고, 그것을 upscale해서 사용하면, 거의 2배 정도의 속도 향상이 있을 수 있다고 하는군요.<br/><br/>여기서 up-scale을 어떻게 할 것이냐도 생각을 해봐야 하는데, 일반적으로 gaussian filter를 이용할테지만, bilateral filter를 이용하면 효과가 좋다고 합니다. (저도 해보지는 않아서... 논문을 참고하세요...)<br/><br/>아무튼, Trine을 보고 시작했던 것인데, 게임에 사용하게 되면 다시 한번 깔끔하게 해서 사용해야겠지요?! ^^<br/><br/>(여담입니다만, Depth Buffer를 생성할 때, Depth값이 [0~1]사이로 Normalize해야 한다는 것을 까먹고 있다가 개고생했습니다. 이 문제를 깔끔하게 해결하기 위해서는 Depth Buffer를 생성할 때, Depth값을 Encode/Decode하는 것을 보면 좋습니다. 이유는 Depth값은 float인데, 무심코 Texture의 하나의 채널에 넣어주면(Output.x = Depth), 8비트(R)에 float값을 쑤셔 넣게 되니깐, 압축해서 텍스쳐에 저장하자는 이야기입니당... 다들 아시거였다구욧?! 에잇!!!)<br/></span>

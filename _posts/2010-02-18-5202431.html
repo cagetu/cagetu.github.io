@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Light Pre Pass(3)"
+date: 2010-02-18 15:54:38 +0900
+---
+
+<a href="http://cagetu.egloos.com/5196663" title=""><span style="FONT-FAMILY: Verdana">Light Pre Pass(2)</span></a><span style="FONT-FAMILY: Verdana">에 이어서... Directional Lighting 하나 처리해보았음.<br/><br/>사용한 Diffuse 공식은<br/>Albedo * matDiffuse * (ambientTerm + lightDiffuse * N.L + lightDiffuse * rimIntensity)<br/>가 되는군욤...<br/><img alt="" loading="lazy" src="/assets/images/posts/5202431/c0001532_4b7ce2eda6dce.png"/><br/><br/>ambient 값을 처리하기 위해서, AmbientCube를 사용하는데, 여기서 값을 정상적으로 가지고 오려면, world 공간 상의 Normal을 사용해야 하는데, (G-Buffer의 View Space Normal을 사용하면, 카메라 방향으로의 색상을 얻어오기 때문...) 이것 때문에, Forword Rendering 패스에서, normal을 다시 계산해 주어야 하나?!<br/><br/>아직 Forword Rendering 패스에서 lighting 공식을 재구성하는 노하우가 부족~~ !!<br/>(Point &amp; Spot Light를 추가해보면서 쌓기로...)<br/><br/>그림자 맵을 가지고 오는 것도 의외로 잘 안되고 있음...<br/>(Deferred Shading에서 그림자 맵을 처리하기 위해서는, viewspace position을 light space 공간으로 옮길 것인가만 주의!!)<br/><br/>암튼 아직 부족해... </span>

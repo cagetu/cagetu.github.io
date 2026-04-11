@@ -1,0 +1,7 @@
+---
+layout: post
+title: "[Vulkan 일지] DescriptorSets"
+date: 2017-02-22 02:38:35 +0900
+---
+
+Shader를 생성하고, 셰이더의 Descriptor (변수)를 c++에서 선언하고 값을 연동하기 위해서 Descriptor에 대한 설정 시리즈를 진행하고 있다. DescriptorPool, DescriptorSetLayout, DescriptorSetLayoutBinding, DescriptorSets...<div><br/></div><div>결국 Shader에 맞는 DescriptorSets을 만들기 위함이다... 하악~~~</div><div><br/></div><div>이 부분은 거의 언리얼4의 코드를 보면서 따라했다. 정확히 개념이 오지도 않고, 샘플코드를 보아도 말 그대로 "돌아가는 것을 보여주는 코드"일 뿐이라 별로 도움도 안되고 원하는 결과를 얻기도 어려워서 그냥 시원~하게 보면서 따라가고 있다. </div><div><br/></div><div>생각해보면, 항상 집에서 작업할 때 오픈소스를 많이 참고했었는데, Orge3D, irright, nebula2/3 에 영향을 참 많이 받았고, 보면서 정말 많은 것들을 배웠었다. 오픈소스가 거의 없어지고 이제는 언리얼4가 가장 잘 되어 있는 오픈소스가 되다보니 많이 보게 된다. (물론 회사에서도 보지만...)</div><div><br/></div><div>이제 DescriptorSets에 값을 채워서 업데이트 해줘야 하는데, UniformBuffer를 할당하고 값을 채워서 그 버퍼를 UpdateDescriptorSet을 통해서 업데이트 해주면 될 것 같다.</div><div><br/></div><div>Uniform Buffer를 잘 사용하려면 슬슬 메모리 관리 부분도 생각을 해야 할 것 같고, 이전에 이야기한 것처럼 memory 정렬도 잘 생각해야 할 것 같다.</div><div><br/></div><div><a href="https://www.facebook.com/groups/directxkr/" target="_blank">DirectX11/12 개발자 모임</a> 사이트인데, 어차피 DX12나 Vulkan이나 흐름이나 이슈가 거의 동일하다고 생각되니, 여기서 정보를 많이 얻도록 하자! 어차피 해본 사람은 영천님이나 포프님 밖에 없으니 물어보는 수 밖에 ㅎㅎ</div><div><br/></div><div>아~ 언제가 되면 삼각형을 그려볼 수 있을 것인가... 쿠쿠쿠!! ㅠㅠ;;</div><div><br/></div><div>나도 API 공부 마무리하고, 그래픽스 Feature들 하나씩 만들어보고 싶은데.. 흐규~ 흐규~</div>

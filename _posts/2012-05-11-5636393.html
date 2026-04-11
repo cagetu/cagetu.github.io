@@ -1,0 +1,7 @@
+---
+layout: post
+title: "The Future According to Epic's Tim Sweeny"
+date: 2012-05-11 09:34:15 +0900
+---
+
+가마스트라에 올라온 인터뷰 내용입니다. <br/>(<a href="http://www.gamasutra.com/view/feature/169845/the_future_according_to_epics_tim_.php" target="_blank">http://www.gamasutra.com/view/feature/169845/the_future_according_to_epics_tim_.php</a>)<br/><br/>앞으로의 게임과 기술의 발전 방향에 대한 이야기들이 흥미롭네요. 특히, 인공지능에 대한 이야기는 와우~<br/>물론, 콘솔을 중심으로 이야기하고 있지만, 온라인 진영에서도 관심을 가질만 한 것들이 많네요. <br/><br/>사실 생각해보면, 콘솔과 PC 모두 모바일의 등장에 고전을 하고 있는데, 앞으로의 게임 플랫폼의 판도가 어떤게 될지 무척 흥미롭네요. <br/>그런 의미로 개발사는 모든 플랫폼에서 개발할 수 있는 기술력을 가지고 있지 않으면, 한순간에 시장에 흐름에 따라서 훅~ 갈수도 있을 듯 하네요. <br/><br/>시장이 엄청 다이나믹해져서 재미있긴한데 더 부지런해져야만 하는군요. ㅡㅡ;;<br/><br/>게임의 미래는 언제나 재미있는 기술들과 새로운 기기들, 심장을 두근거리게 하는 게임들~ 가슴 설레이네요. ㅎㅎ

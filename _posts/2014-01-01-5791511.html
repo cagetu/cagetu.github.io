@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Age Of Rage"
+date: 2014-01-01 01:51:00 +0900
+---
+
+<div><img alt="" loading="lazy" src="/assets/images/posts/5791511/c0001532_52c2f70b70e9a.png"/></div><div>(동영상 : <span style="font-size: 9pt;"><a href="http://www.youtube.com/watch?v=7Ai-YjaPKbs">http://www.youtube.com/watch?v=7Ai-YjaPKbs</a>)</span></div><div><br/></div><div>2013년을 정리하면서 년초에 출시했던 모바일 RPG 게임입니다. 8개월 전인데, 되게 오래 된 것 같네요.</div><div><br/></div><div>개인적으로 게임 자체는 꽤 재미있었고, 모바일 방식에도 나름 잘 어울리기도 했다고 생각됩니다. 실시간 채팅도 되어서 나름 유저들이 채팅하면서 재미있게 즐기기도 했구요.  <span style="font-size: 9pt; font-family: Verdana;">여러가지 이유로 좋은 결과가 나오지 않아서 약간 아쉽지만,  </span><span style="font-size: 9pt; font-family: Verdana;">자체엔진을 이용해서 노하우도 나름 쌓았고, 모바일 게임이 어떤 것이라는 것도 알게해준 고마운 게임입니다.</span></div><div><span style="font-family: Verdana; font-size: 9pt;"><br/></span></div><div><span style="font-family: Verdana; font-size: 9pt;">재미있는 일화가 하나 있는데, 당시에 아티스트가 부족해서 NPC를 그냥 실루엣으로만 처리해서 출시를 했더니 게시판에 본인 전화기가 문제가 있는 것 같다면서 버그라고 올리더군요. ㅎㅎㅎ. </span></div><div><img alt="" loading="lazy" src="/assets/images/posts/5791511/c0001532_52c2f7b444509.jpg"/></div><div><br/></div><div><div>지금 돌이켜보면, 준비도 많이 부족했고 출시 타이밍도 애매했고 전반적으로 여러가지가 있었던 것 같네요. 여유가 된다면 다시 정비해서 아주 많은 사람들이 아니라도 재미있게 즐길 수 있도록 다시 시장에 내놓고 싶어요.</div><div>(물론 지금도 플레이는 가능합니다. T-Store에만 있어요. ㅎㅎㅎ)</div></div>

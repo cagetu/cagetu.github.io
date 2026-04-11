@@ -1,7 +1,0 @@
----
-layout: post
-title: "Deferred Shadow Map"
-date: 2011-04-13 23:07:50 +0900
----
-
-<a href="http://mynameismjp.wordpress.com/samples-tutorials-tools/deferred-shadow-maps-sample/">http://mynameismjp.wordpress.com/samples-tutorials-tools/deferred-shadow-maps-sample/</a><div><a href="http://mynameismjp.wordpress.com/2009/02/17/deferred-cascaded-shadow-maps/">http://mynameismjp.wordpress.com/2009/02/17/deferred-cascaded-shadow-maps/</a></div><div><br/></div><div>글에도 나와 있지만, 장점은 shadow와 material과 lighting 계산과 분리할 수 있다.</div><div>특히, shadow 사용 여부나, shadow 종류에 따라, shader 조합의 폭발을 억제할 수 있다.</div><div><br/></div><div>특별한 것은 아니지만, Deferred Shading을 사용한다면, 참고하면 좋을 듯.</div><div><br/></div><div>1. shadow map 생성</div><div>2. 생성된 shadow map과 depth buffer 를 가지고, shadow occlusion buffer를 만든다.</div><div>  - depth buffer를 가지고, world position을 구성하고, shadow depth와 pixel의 depth와 비교</div><div>  - screen size 로 렌더링</div><div>3. material shader 에서 shadow occlusion buffer에서 스크린 스페이스로 텍스쳐 샘플링하여, shadow 정보를 얻는다.</div><div><br/></div><div>CryEngine3 나 Frostbite2 엔진 과 같은 문서를 보면, Deferred Shadow를 써서 효과를 보았다는 사례가 많이 나온다.</div><div>(모두 Deferred Shading을 이용)</div><div><br/></div><div><div>라이트 프리 패스를 사용할 경우에나 forward rendering을 사용할 때에는 얼마나 효과가 있는지는 잘 모르겠다.</div></div><div><br/></div><div>그나저나, 이 아저씨 블로그에는 참 볼 것이 많구만...</div><div><br/></div>

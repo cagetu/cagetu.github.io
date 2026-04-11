@@ -1,0 +1,7 @@
+---
+layout: post
+title: "ddx(), ddy()"
+date: 2012-10-11 11:31:54 +0900
+---
+
+지인 분이 이 함수에 대해서 궁금한데, 찾아봐도 정확히 설명이 없다고 하시길래. 저도 본지도 한참 되어서 정리를 좀 해봅니다.<div><br/></div><div>[참고자료]</div><div><a href="http://www.gamedev.net/topic/602909-how-do-ddx-and-ddy-work/">http://www.gamedev.net/topic/602909-how-do-ddx-and-ddy-work/</a></div><div><a href="http://www.gamedev.net/topic/478820-derivative-instruction-details-ddx-ddy-or-dfdx-dfdy-etc/">http://www.gamedev.net/topic/478820-derivative-instruction-details-ddx-ddy-or-dfdx-dfdy-etc/</a></div><div><a href="http://http.developer.nvidia.com/GPUGems/gpugems_ch24.html">http://http.developer.nvidia.com/GPUGems/gpugems_ch24.html</a></div><div><br/></div><div>위에 설명이 무지 무지 잘 되어 있어요...</div><div><br/></div><div>특정 값(주어진 픽셀)에 대해서, GPU에게 "screen-x 나 screen-y 방향으로 pixel에서 pixel 사이의 이 값이 얼마나 변했니?" 라고 물어볼 때 사용됩니다. 이 함수가 바로 ddx(), ddy()이고, 도함수입니다. 즉, 변화량을 표현한다는 것입니다.</div><div><br/></div><div>하드웨어에서 한 픽셀을 처리할 때에는 2x2 블럭으로 가지고 와서 처리를 하는데, 이 때, 옆 픽셀과의 차이를 계산합니다. 2x2 block 안에서 도함수에 대한 정확한 공식은, 주어진 블럭이</div><div>a b</div><div>c d</div><div>라고 할 때, ddx(a)와 ddy(b)는 (b-a)가 될 것이고, ddy(a)와 ddy(c)는 (c-a)가 될 것입니다.</div><div><br/></div><div><br/></div><div>위의 자료를 대강 정리하면 이런 내용입니다. 대충 아시겠죠? 아시겠으면 500원~ ㅎ</div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Quck Gaussian Filtering의 테스트 결과"
+date: 2011-01-31 18:32:11 +0900
+---
+
+<a href="http://cagetu.egloos.com/5430815" title="">Quick Gaussian Filtering</a>을 간단하게 테스트 해보았는데, 실제로 30%정도는 빨라지네요. <div><div>아무래도 TextureFetch를 하는 횟수 자체가 딱 30% 정도 줄어드니, 딱 그만큼 속도 향상이 있는 듯 하군요.</div></div><div>(60%라고 하더니, 그 정도까지인지는 모르겠음... ㅎㅎ.. 암튼 빨라지니 Good!!!)</div><div><br/></div><div>아무튼, Bilateral Filter 등을 사용하지 않고, 일반적인 Gaussian Blur를 사용할 경우(예, Bloom 등)에는 도움이 꽤 되겠어요.</div><div><br/></div><div>이 문서에서 좋은 용어 알았네요.</div><div><ul><li>Discrete sampling (VS Linear Sampling)<br/>: 한 픽셀씩 Sampling해서 색상을 얻어오는 방식</li></ul></div>

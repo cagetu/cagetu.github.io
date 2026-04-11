@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Physically Based Shading Model (Cont')"
+date: 2012-06-19 18:58:17 +0900
+---
+
+<a href="http://cagetu.egloos.com/5585512" title="">Microfacet BRDF</a>에서 계속~<div><br/></div><div>좀 깊게 들어가보니, 어려워진다.. ㅡㅡ;;</div><div><a href="http://seblagarde.wordpress.com/2011/08/17/hello-world/">http://seblagarde.wordpress.com/2011/08/17/hello-world/</a></div><div><a href="http://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/#more-107">http://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/#more-107</a></div><div><a href="http://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/">http://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/</a></div>

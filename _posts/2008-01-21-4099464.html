@@ -1,0 +1,7 @@
+---
+layout: post
+title: "HDR 공부 중.."
+date: 2008-01-21 14:34:25 +0900
+---
+
+<img alt="" loading="lazy" src="/assets/images/posts/4099464/c0001532_47942e16585ca.jpg"/>HDR을 이용한 Star Effect<br/>- 텍스쳐를 너무 많이 써야 하기에, 별로 쓸 일이 있을까 하지만, 최적화하면 좀 줄일 수도 있겠군.. <br/>- 엔진에서 RenderToTexture 와 ScreenAlignedQuad라는 객체를 만들어서, 외부에서 설정을 해서 만들 수 있도록 함. 엔진 내부에 따로 StarEffect라는 것을 만들지 않고, PostProcessing 을 약간 유연하게 작업할 수 있도록 해봄. But, 아직 오의를 깨닭지 못했으므로, 조금 더 해봐야 될 듯..<br/>- RenderToTexture 연습을 완전 많이 해본 계기가 됨.. ㅋ<br/><img alt="" loading="lazy" src="/assets/images/posts/4099464/c0001532_47945252a54ba.jpg"/><br/>Star + Bloom Effect<br/>-Bloom 으로 발광하는 느낌을 넣어 봤음<br/>-값을 조절하면 괜찮은 느낌이 나올 수 있을 듯.<br/><br/>[결론]<br/>-toneMapping을 아직 다 만들지 않아서, toneMap은 적용하지 않았음.<br/>-예제가 잘 나와 있어서 기술 자체를 해보는 것은 별로 어렵지 않음. 단, 중간 중간의 과정을 정확하게 파악하기에는 약간 힘든 듯..<br/>정리하면서 하려니까. 생각보다 시간이 좀 오래 걸렸음.<br/>-Sampling 에 대한 것들을 정리해서 모아둘 필요가 있음..<br/><br/>[참고자료]<br/>-DirectX9 셰이더 프로그래밍 - 김용준 역<br/>-DirectX9 SDK Sample - HDRLighting, HDR PipeLine, PostProcessing<br/>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Depth To Position"
+date: 2011-04-27 12:30:51 +0900
+---
+
+자꾸 헷갈리니, 정리하자!!!<div><br/></div><div>우선 레퍼런스</div><div><a href="http://mynameismjp.wordpress.com/2009/03/10/reconstructing-position-from-depth/">http://mynameismjp.wordpress.com/2009/03/10/reconstructing-position-from-depth/</a></div><div><a href="http://mynameismjp.wordpress.com/2009/05/05/reconstructing-position-from-depth-continued/">http://mynameismjp.wordpress.com/2009/05/05/reconstructing-position-from-depth-continued/</a></div><div><br/></div><div>[깊이 버퍼를 구하는 방법]</div><div>1. 프로젝션된 깊이값.</div><div>: 이것은 하드웨어 깊이버퍼를 사용할 때와 유사한 방법이지만, 불행하게도 하드웨어 깊이버퍼를 얻을 수는 없다. (PC)</div><div>셰이더에서 프로젝션된 포지션의 z/w를 얻어오자. </div><div>(z/w로 처리하는 것은 비선형(non-linear)하다.)</div><div>2. normalize된 view-space의 Z 깊이값.</div><div>: view space에서 linear함.</div><div><br/></div><div>["깊이값 -&gt; 포지션" 구하는 방법]</div><div>normalize되 깊이값을 이용할 때,</div><div>1. view space frustum far plane corner의 값을 얻어와서, normalize된 깊이값과 곱해주면, view 공간 상의 포지션을 얻을 수 있다.</div><div>2. 월드 공간 상의 포지션을 얻고자 할 때는, 1번의 결과에 View의 역행렬을 곱해주거나, 카메라 공간으로 변환된  frustum far plane corner를 이용하여, 카메라 공간에서의 위치를 구하고, 그 결과에 카메라 포지션을 더해서 월드 위치를 구한다.</div><div><br/></div><div>결론은 그냥 저 위의 참고자료를 보기만 하면 된다는 뜻임... ^^</div><div><br/></div><div><br/></div>

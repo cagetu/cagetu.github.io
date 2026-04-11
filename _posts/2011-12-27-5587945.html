@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Dynamic Lights in GOW3 : SIGGRAPH2011"
+date: 2011-12-27 10:55:48 +0900
+---
+
+<a href="http://cagetu.egloos.com/5511677" title="">SIGGRAPH 2011</a>의 게임 세션에서 소개한 "god of war 3"의 dynamic lights 내용이 있는데. 얼마 전 트위터에서 이야기가 나와서, 그냥 생각난 김에 좀 찬찬히 봤는데요. 활용도가 엄청 높을 것 같습니다. <div><br/></div><div>아이디어는 Vertex Shader에서 라이트들을 하나로 만들어서, Pixel Shader에서는 하나의 라이트처럼 한다는 것입니다. 이 아이디어는 PS3의 경우, Pixel 연산이 더럽게 느리기 때문에 최대한 줄이기 위해서, 만들어 진 내용이구요. </div><div><br/></div><div>최근 대작들을 보면, 옵션을 내리면, 최적화를 위해서, 심지어 라이팅을 하나도 안하는 경우도 있기는 하지만, 일반적으로 라이팅 하나로 처리를 많이 합니다. 이 처럼 PC 온라인과 같이 하드웨어가 다양하게 처리되어야 하는 환경에서, 한번 적용해볼만한 내용일 것 같습니다. 또한, 이건 무려 Forward Rendering으로 충분히 처리가 가능한 부분이기도 하니까, 레거시 코드에서 적용해볼만 한 내용이기도 하네요. (<a href="http://www.thetenthplanet.de/archives/1337" target="_blank">대충 코드 흐름</a>)</div><div><br/></div><div>Gow3 의 경우에는 Baked Lighting에서도 사용했다고 하는데, 생각해보면, Light Probe를 처리할 때도, 이렇게 여러 개의 라이트를 누적해서 하나로 만들어 두면, 여러가지로 절약을 할 수 있을 것 같기는 하네요. </div><div><div><br/></div><div><iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/uWXRBWTjv-4" width="560"></iframe></div></div><div><br/></div><div>개인적으로는 테스트를 좀 해보고 있는데, 나중에 팀블로그 같은데 함 정리해보려구요. ^^</div><div><br/></div><div>버텍스 라이팅에 대해서 <a href="http://chulin28ho.egloos.com/5483182" target="_blank">Diffuse fast 쉐이더, Diffuse 보다 정말 빠른가? </a>로 가보시면, 대마왕 J님의 흥미로운 연구가 하나 있어요. 물론 모바일 환경(Tile Based Deferred Lighting)이긴 하지만, PC에서도 Early Z 등의 Z-Cull이 많이 있으니, 이런 것도 생각은 좀 해볼 필요가 있겠네요.</div>

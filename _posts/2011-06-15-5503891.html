@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Vector Field"
+date: 2011-06-15 19:43:34 +0900
+---
+
+<div>재규님이 알려주신 Vector Field 동영상 (GDC2009)</div><a href="http://www.gdcvault.com/play/1277/HALO-WARS-The-Terrain-of">http://www.gdcvault.com/play/1277/HALO-WARS-The-Terrain-of</a><div><br/></div><div>검색해보시면, 발표자료도 올라와 있네요.</div><div><br/></div><div>아직 다른 게임에서 적용된 것은 보지 못했는데, 가능성도 있어보이고, 왠지 그럴싸하게 될 것 같기도 한데요?! </div><div><br/></div><div><img alt="" loading="lazy" src="/assets/images/posts/5503891/c0001532_4df88cb32281c.png"/></div><div>(스샷만 보면 간지인듯...)</div><div><br/></div><div>일단 스크랩!!!! </div>

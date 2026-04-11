@@ -1,0 +1,7 @@
+---
+layout: post
+title: "handmade hero"
+date: 2016-04-25 18:54:39 +0900
+---
+
+<a href="https://handmadehero.org/" target="_blank">handmade hero라는 사이트</a>를 소개 받았다. 아무것도 없는 처음부터 하나 하나 게임을 만들는 것을 라이브 코딩을 하면서 강좌를 해준다.<div><br/></div><div><div style="line-height: 15.6px;">지금 겨우 27 강좌 보고 있는데 끝까지 다 볼 수 있을지.. ㅡㅡ;;;</div><div style="line-height: 15.6px;"><br/></div></div><div>영어라 이해가 잘 되지 않고, 한 강좌가 1시간이 넘어서 꾸준히 보기가 쉽지는 않다. 하지만 너무나 많은 도움이 된다. 게임엔진을 사용하는 사용자 입장에서 왜 이렇게 게임이 구성되었는지를 알게 될 것이고, 게임을 구성하는 과정에서도 어떻게 하는 것이 맞는 것인지도 알 수 있다.</div><div><br/></div><div>적어도 1주일에 2개 정도는 보는 것이 목표!!!</div>
