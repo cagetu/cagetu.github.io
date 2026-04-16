@@ -6,6 +6,56 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <time class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</time>
   </header>
+
+  {% if page.password %}
+  <div id="password-gate" class="post-content" style="text-align:center; padding:40px 0;">
+    <p style="font-size:14px; color:#999; margin-bottom:16px;">비밀번호가 필요한 글입니다.</p>
+    <div style="display:flex; justify-content:center; gap:8px;">
+      <input type="password" id="pw-input" placeholder="비밀번호 입력"
+        style="padding:8px 12px; border:0.5px solid #ccc; border-radius:6px; font-size:14px; width:180px;"
+        onkeydown="if(event.key==='Enter') checkPassword()" />
+      <button onclick="checkPassword()"
+        style="padding:8px 16px; border:0.5px solid #ccc; border-radius:6px; font-size:14px; cursor:pointer; background:#fff;">
+        확인
+      </button>
+    </div>
+    <p id="pw-error" style="font-size:13px; color:#e24b4a; margin-top:12px; display:none;">비밀번호가 틀렸습니다.</p>
+  </div>
+
+  <div id="post-body" style="display:none;">
+    <div class="post-content">
+      {{ content }}
+    </div>
+    <nav class="post-nav">
+      <a href="{{ '/' | relative_url }}">← 목록으로</a>
+    </nav>
+    <div class="comments">
+      <script src="https://utteranc.es/client.js"
+              repo="cagetu/cagetu.github.io"
+              issue-term="pathname"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  </div>
+
+  <script>
+    function checkPassword() {
+      var input = document.getElementById('pw-input').value;
+      var correct = '{{ page.password }}';
+      if (input === correct) {
+        document.getElementById('password-gate').style.display = 'none';
+        document.getElementById('post-body').style.display = 'block';
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+        document.getElementById('pw-input').value = '';
+        document.getElementById('pw-input').focus();
+      }
+    }
+  </script>
+
+  {% else %}
   <div class="post-content">
     {{ content }}
   </div>
@@ -21,4 +71,5 @@ layout: default
             async>
     </script>
   </div>
+  {% endif %}
 </article>
